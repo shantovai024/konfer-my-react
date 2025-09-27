@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "image": "speaker2-1.jpg",
+        "name": "Don Carlo Van Houten",
+        "designation": "Senior UX Designer",
+        "delay": 600
+    },
+    {
+        "id": 2,
+        "image": "speaker2-2.jpg",
+        "name": "Don Carlo Van Houten",
+        "designation": "Senior UX Designer",
+        "delay": 400
+    },
+    {
+        "id": 3,
+        "image": "speaker2-3.jpg",
+        "name": "Don Carlo Van Houten",
+        "designation": "Senior UX Designer",
+        "delay": 200
+    }
+]

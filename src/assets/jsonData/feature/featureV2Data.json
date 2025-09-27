@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "iconClass": "flaticon-computer",
+        "title": "Best Digital Ideas",
+        "text": "Meh synth Schlitz, tempo Duis single-origin coffee ea next level ethnic finger.",
+        "delay": 0
+    },
+    {
+        "id": 2,
+        "iconClass": "flaticon-creativity",
+        "title": "Confirm Speakers",
+        "text": "Meh synth Schlitz, tempo Duis single-origin coffee ea next level ethnic finger.",
+        "delay": 0
+    },
+    {
+        "id": 3,
+        "iconClass": "flaticon-speech",
+        "title": "Confirm Speakers",
+        "text": "Meh synth Schlitz, tempo Duis single-origin coffee ea next level ethnic finger.",
+        "delay": 0
+    },
+    {
+        "id": 4,
+        "iconClass": "flaticon-team",
+        "title": "Confirm Speakers",
+        "text": "Meh synth Schlitz, tempo Duis single-origin coffee ea next level ethnic finger.",
+        "delay": 200
+    },
+    {
+        "id": 5,
+        "iconClass": "flaticon-speech",
+        "title": "Confirm Speakers",
+        "text": "Meh synth Schlitz, tempo Duis single-origin coffee ea next level ethnic finger.",
+        "delay": 200
+    }
+]

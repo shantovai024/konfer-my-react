@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "bgImage": "2.jpg",
+        "floatingTitle": "Climate Change",
+        "title1": "Climate Change",
+        "title2": "Forum Singapore",
+        "title3": "Year 2025",
+        "description": "Welcome Innovate 2025 Shaping the Future of Business, where industry leaders, innovators, and visionaries come.",
+        "buttonText": "Registration Now",
+        "image": "banner2-man.png",
+        "date": "21-24",
+        "year": "December 2025"
+    },
+    {
+        "id": 2,
+        "bgImage": "2.jpg",
+        "floatingTitle": "Climate Change",
+        "title1": "Climate Change",
+        "title2": "Forum Singapore",
+        "title3": "Year 2025",
+        "description": "Welcome Innovate 2025 Shaping the Future of Business, where industry leaders, innovators, and visionaries come.",
+        "buttonText": "Registration Now",
+        "image": "banner2-man.png",
+        "date": "21-24",
+        "year": "December 2025"
+    },
+    {
+        "id": 3,
+        "bgImage": "2.jpg",
+        "floatingTitle": "Climate Change",
+        "title1": "Climate Change",
+        "title2": "Forum Singapore",
+        "title3": "Year 2025",
+        "description": "Welcome Innovate 2025 Shaping the Future of Business, where industry leaders, innovators, and visionaries come.",
+        "buttonText": "Registration Now",
+        "image": "banner2-man.png",
+        "date": "21-24",
+        "year": "December 2025"
+    }
+]

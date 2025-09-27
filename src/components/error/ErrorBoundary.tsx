@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 
 import React from 'react';
 import type { ErrorInfo, ReactNode } from 'react';
@@ -17,6 +16,7 @@ class ErrorBoundary extends React.Component<Props, State> {
         hasError: false
     };
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     static getDerivedStateFromError(_: Error): State {
         return { hasError: true };
     }

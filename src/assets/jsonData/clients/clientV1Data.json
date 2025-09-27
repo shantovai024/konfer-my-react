@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "boxClass": "",
+        "clientData": [
+            {
+                "id": 1,
+                "clientThumb": "1.png"
+            },
+            {
+                "id": 2,
+                "clientThumb": "2.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "boxClass": "",
+        "clientData": [
+            {
+                "id": 1,
+                "clientThumb": "3.png"
+            },
+            {
+                "id": 2,
+                "clientThumb": "4.png"
+            },
+            {
+                "id": 3,
+                "clientThumb": "5.png"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "boxClass": "",
+        "clientData": [
+            {
+                "id": 1,
+                "clientThumb": "6.png"
+            },
+            {
+                "id": 2,
+                "clientThumb": "7.png"
+            },
+            {
+                "id": 3,
+                "clientThumb": "8.png"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "boxClass": "show-md",
+        "clientData": [
+            {
+                "id": 1,
+                "clientThumb": "1.png"
+            },
+            {
+                "id": 2,
+                "clientThumb": "2.png"
+            },
+            {
+                "id": 3,
+                "clientThumb": "3.png"
+            },
+            {
+                "id": 4,
+                "clientThumb": "4.png"
+            },
+            {
+                "id": 5,
+                "clientThumb": "5.png"
+            },
+            {
+                "id": 6,
+                "clientThumb": "6.png"
+            },
+            {
+                "id": 7,
+                "clientThumb": "7.png"
+            },
+            {
+                "id": 8,
+                "clientThumb": "8.png"
+            }
+        ]
+    }
+]

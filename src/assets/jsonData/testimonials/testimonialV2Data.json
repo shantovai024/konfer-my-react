@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "text": "Dynamic, Innovative, Inspiring! We made History! I am so proud to have been a part of this amazing, ground moving event. We understand the importance of approaching each work integrally",
+        "ratings": 5,
+        "name": "Donna Nazir",
+        "designation": "Broker/CEO",
+        "image": "testi2-1.jpg",
+        "delay": 0
+    },
+    {
+        "id": 2,
+        "text": "Dynamic, Innovative, Inspiring! We made History! I am so proud to have been a part of this amazing, ground moving event. We understand the importance of approaching each work integrally",
+        "ratings": 5,
+        "name": "Donna Nazir",
+        "designation": "Broker/CEO",
+        "image": "testi2-1.jpg",
+        "delay": 200
+    },
+    {
+        "id": 3,
+        "text": "Dynamic, Innovative, Inspiring! We made History! I am so proud to have been a part of this amazing, ground moving event. We understand the importance of approaching each work integrally",
+        "ratings": 5,
+        "name": "Donna Nazir",
+        "designation": "Broker/CEO",
+        "image": "testi2-1.jpg",
+        "delay": 400
+    }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Donna Nazir",
+    "designation": "Broker/CEO",
+    "text": "Dynamic, Innovative, Inspiring! We made History! I am so proud to have been a part of this amazing, ground moving event.",
+    "ratings": 5,
+    "image": "testi1-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Donna Nazir",
+    "designation": "Broker/CEO",
+    "text": "Dynamic, Innovative, Inspiring! We made History! I am so proud to have been a part of this amazing, ground moving event.",
+    "ratings": 5,
+    "image": "testi1-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Donna Nazir",
+    "designation": "Broker/CEO",
+    "text": "Dynamic, Innovative, Inspiring! We made History! I am so proud to have been a part of this amazing, ground moving event.",
+    "ratings": 5,
+    "image": "testi1-1.png"
+  },
+  {
+    "id": 4,
+    "name": "Donna Nazir",
+    "designation": "Broker/CEO",
+    "text": "Dynamic, Innovative, Inspiring! We made History! I am so proud to have been a part of this amazing, ground moving event.",
+    "ratings": 5,
+    "image": "testi1-2.png"
+  },
+  {
+    "id": 5,
+    "name": "Donna Nazir",
+    "designation": "Broker/CEO",
+    "text": "Dynamic, Innovative, Inspiring! We made History! I am so proud to have been a part of this amazing, ground moving event.",
+    "ratings": 5,
+    "image": "testi1-1.png"
+  },
+  {
+    "id": 6,
+    "name": "Donna Nazir",
+    "designation": "Broker/CEO",
+    "text": "Dynamic, Innovative, Inspiring! We made History! I am so proud to have been a part of this amazing, ground moving event.",
+    "ratings": 5,
+    "image": "testi1-2.png"
+  }
+]

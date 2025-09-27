@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "blockClass": "",
+        "planName": "Regular Plan",
+        "price": 120,
+        "day": "1st Day",
+        "pass": "Standard Pass",
+        "checkBg": "check-bg-one",
+        "features": [
+            {
+                "id": 1,
+                "title": "Conference Package",
+                "text": "(Includes workshop, coffee etc)"
+            },
+            {
+                "id": 2,
+                "title": "Online Live Streams",
+                "text": "(Can access online free)"
+            },
+            {
+                "id": 3,
+                "title": "Speaker Meet & Greet",
+                "text": "(Ask questions privately)"
+            }
+        ],
+        "buttonText": "Buy Ticket",
+        "delay": 0
+    },
+    {
+        "id": 2,
+        "blockClass": "active two",
+        "planName": "Business Plan",
+        "price": 180,
+        "day": "2nd Day",
+        "pass": "Flexible Pass",
+        "checkBg": "check-bg-two",
+        "features": [
+            {
+                "id": 1,
+                "title": "Conference Package",
+                "text": "(Includes workshop, coffee etc)"
+            },
+            {
+                "id": 2,
+                "title": "Online Live Streams",
+                "text": "(Can access online free)"
+            },
+            {
+                "id": 3,
+                "title": "Speaker Meet & Greet",
+                "text": "(Ask questions privately)"
+            }
+        ],
+        "buttonText": "Buy Ticket",
+        "delay": 200
+    },
+    {
+        "id": 3,
+        "blockClass": "three",
+        "planName": "Enterprise Plan",
+        "price": 210,
+        "day": "3rd Day",
+        "pass": "Fabulously Pass",
+        "checkBg": "check-bg-three",
+        "features": [
+            {
+                "id": 1,
+                "title": "Conference Package",
+                "text": "(Includes workshop, coffee etc)"
+            },
+            {
+                "id": 2,
+                "title": "Online Live Streams",
+                "text": "(Can access online free)"
+            },
+            {
+                "id": 3,
+                "title": "Speaker Meet & Greet",
+                "text": "(Ask questions privately)"
+            }
+        ],
+        "buttonText": "Buy Ticket",
+        "delay": 400
+    }
+]

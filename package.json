@@ -10,20 +10,25 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-spring/web": "^10.0.3",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.8",
     "gsap": "^3.13.0",
+    "photoswipe": "^5.4.4",
     "react": "^19.1.1",
     "react-countup": "^6.5.3",
     "react-dom": "^19.1.1",
     "react-helmet-async": "^2.0.5",
     "react-modal-video": "^2.0.2",
     "react-paginate": "^8.3.0",
+    "react-photoswipe-gallery": "^4.0.0",
     "react-router-dom": "^7.9.1",
     "react-simple-scroll-up": "^0.2.3",
     "react-timer-hook": "^4.0.5",
     "react-toastify": "^11.0.5",
-    "swiper": "^12.0.2"
+    "split-type": "^0.3.4",
+    "swiper": "11.2.8",
+    "typewriter-effect": "^2.22.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.35.0",

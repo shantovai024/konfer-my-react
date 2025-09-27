@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "isEmpty": true,
+        "delay": 0,
+        "boxClass": ""
+    },
+    {
+        "id": 2,
+        "isEmpty": false,
+        "delay": 0,
+        "image1": "3.png",
+        "image2": "2-1.png",
+        "boxClass": "empty"
+    },
+    {
+        "id": 3,
+        "isEmpty": true,
+        "delay": 0,
+        "boxClass": ""
+    },
+    {
+        "id": 4,
+        "isEmpty": false,
+        "delay": 200,
+        "image1": "7.png",
+        "image2": "2-2.png",
+        "boxClass": "empty"
+    },
+    {
+        "id": 5,
+        "isEmpty": false,
+        "delay": 0,
+        "image1": "1.png",
+        "image2": "2-3.png",
+        "boxClass": "empty"
+    },
+    {
+        "id": 6,
+        "isEmpty": true,
+        "delay": 0,
+        "boxClass": ""
+    },
+    {
+        "id": 7,
+        "isEmpty": false,
+        "delay": 200,
+        "image1": "6.png",
+        "image2": "2-4.png",
+        "boxClass": "empty"
+    },
+    {
+        "id": 8,
+        "isEmpty": true,
+        "delay": 0,
+        "boxClass": ""
+    },
+    {
+        "id": 9,
+        "isEmpty": true,
+        "delay": 0,
+        "boxClass": ""
+    },
+    {
+        "id": 10,
+        "isEmpty": false,
+        "delay": 0,
+        "image1": "4.png",
+        "image2": "2-5.png",
+        "boxClass": "empty"
+    },
+    {
+        "id": 11,
+        "isEmpty": true,
+        "delay": 0,
+        "boxClass": ""
+    },
+    {
+        "id": 12,
+        "isEmpty": false,
+        "delay": 200,
+        "image1": "8.png",
+        "image2": "2-6.png",
+        "boxClass": "empty"
+    },
+    {
+        "id": 13,
+        "isEmpty": false,
+        "delay": 0,
+        "image1": "5.png",
+        "image2": "2-7.png",
+        "boxClass": "empty"
+    },
+    {
+        "id": 14,
+        "isEmpty": true,
+        "delay": 0,
+        "boxClass": ""
+    },
+    {
+        "id": 15,
+        "isEmpty": false,
+        "delay": 200,
+        "image1": "2.png",
+        "image2": "2-8.png",
+        "boxClass": "empty"
+    },
+    {
+        "id": 16,
+        "isEmpty": true,
+        "delay": 0,
+        "boxClass": ""
+    }
+]

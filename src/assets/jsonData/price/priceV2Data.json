@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "title": "Day Pass",
+        "price": 120,
+        "features": [
+            {
+                "id": 1,
+                "title": "Conference Package",
+                "text": "(Includes workshop, coffee etc)"
+            },
+            {
+                "id": 2,
+                "title": "Online Live Streams",
+                "text": "(Can access online free)"
+            },
+            {
+                "id": 3,
+                "title": "Speaker Meet & Greet",
+                "text": "(Ask questions privately)"
+            }
+        ],
+        "btnText": "BUY Ticket",
+        "tabId": "pricing-tab1",
+        "tabClass": "active show",
+        "dataTarget": "#pricing-tab1",
+        "tabButton": "Standard Pass",
+        "day": "1st Day"
+    },
+    {
+        "id": 2,
+        "title": "Day Pass",
+        "price": 90,
+        "features": [
+            {
+                "id": 1,
+                "title": "Conference Package",
+                "text": "(Includes workshop, coffee etc)"
+            },
+            {
+                "id": 2,
+                "title": "Online Live Streams",
+                "text": "(Can access online free)"
+            },
+            {
+                "id": 3,
+                "title": "Speaker Meet & Greet",
+                "text": "(Ask questions privately)"
+            }
+        ],
+        "btnText": "BUY Ticket",
+        "tabId": "pricing-tab2",
+        "tabClass": "",
+        "dataTarget": "#pricing-tab2",
+        "tabButton": "Flexible Pass",
+        "day": "2nd Day"
+    },
+    {
+        "id": 3,
+        "title": "Day Pass",
+        "price": 150,
+        "features": [
+            {
+                "id": 1,
+                "title": "Conference Package",
+                "text": "(Includes workshop, coffee etc)"
+            },
+            {
+                "id": 2,
+                "title": "Online Live Streams",
+                "text": "(Can access online free)"
+            },
+            {
+                "id": 3,
+                "title": "Speaker Meet & Greet",
+                "text": "(Ask questions privately)"
+            }
+        ],
+        "btnText": "BUY Ticket",
+        "tabId": "pricing-tab3",
+        "tabClass": "",
+        "dataTarget": "#pricing-tab3",
+        "tabButton": "Fabulously Pass",
+        "day": "3rd Day"
+    }
+]

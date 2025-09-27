@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "accordionParent": "faqAccordion",
+        "accordionId": "faqOne",
+        "dataTarget": "collapseOne",
+        "ariaExpanded": false,
+        "ariaControls": "collapseOne",
+        "title": "What is the next big concert?",
+        "collapseClass": "",
+        "ariaLabelled": "faqOne",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    },
+    {
+        "id": 2,
+        "accordionParent": "faqAccordion",
+        "accordionId": "faqTwo",
+        "dataTarget": "collapseTwo",
+        "ariaExpanded": true,
+        "ariaControls": "collapseTwo",
+        "title": "Can I return my tickets?",
+        "collapseClass": "show",
+        "ariaLabelled": "faqTwo",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    },
+    {
+        "id": 3,
+        "accordionParent": "faqAccordion",
+        "accordionId": "faqThree",
+        "dataTarget": "collapseThree",
+        "ariaExpanded": false,
+        "ariaControls": "collapseThree",
+        "title": "Can I join your team of music event planners?",
+        "collapseClass": "",
+        "ariaLabelled": "faqThree",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    },
+    {
+        "id": 4,
+        "accordionParent": "faqAccordion",
+        "accordionId": "faqFour",
+        "dataTarget": "collapseFour",
+        "ariaExpanded": false,
+        "ariaControls": "collapseFour",
+        "title": "Do you offer stages for rent?",
+        "collapseClass": "",
+        "ariaLabelled": "faqFour",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    },
+    {
+        "id": 5,
+        "accordionParent": "faqAccordion",
+        "accordionId": "faqFive",
+        "dataTarget": "collapseFive",
+        "ariaExpanded": false,
+        "ariaControls": "collapseFive",
+        "title": "Do you offer stages for rent?",
+        "collapseClass": "",
+        "ariaLabelled": "faqFive",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "date": "25",
+        "month": "Dec",
+        "category": "Technology",
+        "author": "Admin",
+        "comments": "1",
+        "title": "Most people will come to watch the conference",
+        "text": "Perfect Blvd, Los The Stories Digital Hall 2020 More 5214 Hollywood Event?",
+        "image": "news1-1.jpg",
+        "widgetImage": "post-thumb-1.jpg",
+        "delay": 0
+    },
+    {
+        "id": 2,
+        "date": "25",
+        "month": "Dec",
+        "category": "Conference",
+        "author": "Admin",
+        "comments": "3",
+        "title": "Fueling innovation at Creative conference 2024",
+        "text": "Perfect Blvd, Los The Stories Digital Hall 2020 More 5214 Hollywood Event?",
+        "image": "news1-2.jpg",
+        "widgetImage": "post-thumb-2.jpg",
+        "delay": 200
+    },
+    {
+        "id": 3,
+        "date": "25",
+        "month": "Dec",
+        "category": "Events",
+        "author": "Admin",
+        "comments": "4",
+        "title": "Design thinking at creative events and forums",
+        "text": "Perfect Blvd, Los The Stories Digital Hall 2020 More 5214 Hollywood Event?",
+        "image": "news1-3.jpg",
+        "widgetImage": "post-thumb-1.jpg",
+        "delay": 400
+    },
+    {
+        "id": 4,
+        "date": "25",
+        "month": "Dec",
+        "category": "Events",
+        "author": "Admin",
+        "comments": "4",
+        "title": "Design thinking at creative events and forums",
+        "text": "Perfect Blvd, Los The Stories Digital Hall 2020 More 5214 Hollywood Event?",
+        "image": "news2-1.jpg",
+        "widgetImage": "post-thumb-1.jpg",
+        "delay": 200
+    },
+    {
+        "id": 5,
+        "date": "25",
+        "month": "Dec",
+        "category": "Events",
+        "author": "Admin",
+        "comments": "4",
+        "title": "Design thinking at creative events and forums",
+        "text": "Perfect Blvd, Los The Stories Digital Hall 2020 More 5214 Hollywood Event?",
+        "image": "news2-2.jpg",
+        "widgetImage": "post-thumb-1.jpg",
+        "delay": 400
+    },
+    {
+        "id": 6,
+        "date": "25",
+        "month": "Dec",
+        "category": "Events",
+        "author": "Admin",
+        "comments": "4",
+        "title": "Design thinking at creative events and forums",
+        "text": "Perfect Blvd, Los The Stories Digital Hall 2020 More 5214 Hollywood Event?",
+        "image": "news2-3.jpg",
+        "widgetImage": "post-thumb-1.jpg",
+        "delay": 600
+    }
+]
