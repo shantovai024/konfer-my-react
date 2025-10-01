@@ -1,18 +1,15 @@
 {
   "compilerOptions": {
+    "target": "ES2020",
     "module": "ESNext",
-    "moduleResolution": "bundler",
-    "allowJs": true,
-    "skipLibCheck": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
     "esModuleInterop": true,
     "strict": true,
-    "resolveJsonModule": true,
-    "checkJs": false,
-    "noEmit": true,
-    "jsx": "react-jsx",
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "typeRoots": ["./types", "./node_modules/@types"]
+    "jsx": "react-jsx",
+    "ignoreDeprecations": "6.0"
   },
-  "include": ["src", "types"],
-  "exclude": ["node_modules"]
+  "include": ["src", "types"]
 }
