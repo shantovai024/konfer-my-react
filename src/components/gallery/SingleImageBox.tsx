@@ -12,14 +12,14 @@ const SingleImageBox = ({ gallery }: { gallery: DataType }) => {
         <>
             <div className="inner-box">
                 <figure className="image">
-                    <img src={`/images/resource/gallery1-${fullThumb}`} alt="image" />
-                    <img src={`/images/resource/gallery1-${fullThumb}`} alt="image" />
+                    <img src={`/images/resource/${fullThumb}`} alt="image" />
+                    <img src={`/images/resource/${fullThumb}`} alt="image" />
                 </figure>
                 <div className="overlay-box">
                     <Link className="lightbox-image" to="#">
                         <Item
-                            original={`images/resource/gallery1-${fullThumb}`}
-                            thumbnail={`images/resource/gallery1-/${fullThumb}`}
+                            original={`images/resource/${fullThumb}`}
+                            thumbnail={`images/resource/${fullThumb}`}
                             width="480"
                             height="580"
                         >

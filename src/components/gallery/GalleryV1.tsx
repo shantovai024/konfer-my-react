@@ -1,5 +1,5 @@
 import { Gallery } from "react-photoswipe-gallery";
-import { galleryV1Data, GalleryItem } from '../../assets/jsonData/gallery/galleryV1Data';
+import galleryV1Data from '../../assets/jsonData/gallery/galleryV1Data.json';
 import SingleImageBox from "./SingleImageBox";
 
 const GalleryV1 = () => {
@@ -9,7 +9,7 @@ const GalleryV1 = () => {
                 <div className="outer-box">
                     <div className="gallery one">
                         <Gallery withDownloadButton>
-                            {galleryV1Data.map((gallery: GalleryItem) =>
+                            {galleryV1Data.map((gallery) =>
                                 <div className="gallery-block" key={gallery.id}>
                                     <SingleImageBox gallery={gallery} />
                                 </div>
@@ -21,7 +21,7 @@ const GalleryV1 = () => {
                 <div className="outer-box">
                     <div className="gallery two">
                         <Gallery withDownloadButton>
-                            {galleryV1Data.map((gallery: GalleryItem) =>
+                            {galleryV1Data.map((gallery) =>
                                 <div className="gallery-block" key={gallery.id}>
                                     <SingleImageBox gallery={gallery} />
                                 </div>
