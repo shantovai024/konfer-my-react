@@ -6401,6 +6401,7 @@ Main Header
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   text-align: center;
+  color: var(--theme-color-light);
 }
 
 @media (max-width: 991.98px) {
@@ -26020,4 +26021,41 @@ form .response .text-info {
 
 .schedule-section.style-three .schedule-timeline {
   position: relative;
+}
+
+/* Custom Scroll To Top */
+
+.to-top-progress {
+  z-index: 999999;
+  bottom: 50px !important;
+}
+
+.to-top-progress circle:nth-child(1) {
+  stroke: none;
+  fill: none;
+}
+
+.to-top-progress circle:nth-child(2) {
+  stroke: var(--theme-color3);
+  fill: var(--theme-color2);
+  stroke-width: 2;
+
+}
+
+.to-top-progress i {
+  color: #000;
+  font-size: 22px;
+  position: relative;
+  top: 3px;
+  font-weight: 400;
+}
+
+/* swiper icon fix  */
+svg.swiper-navigation-icon {
+  fill: none;
+  height: 25px;
+}
+
+svg.swiper-navigation-icon path {
+  fill: none
 }

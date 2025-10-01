@@ -16,8 +16,8 @@ import '../src/assets/css/style.css'
 import '../src/assets/css/responsive.css'
 
 import Dependency from "./components/utilities/Dependency"
-import RoutesScrollToTop from "./components/utilities/RoutesScrollToTop"
 import Routers from "./Routers"
+import RoutesScrollToTop from './components/utilities/RoutesScrollToTop'
 
 function App() {
   return (

@@ -2,15 +2,24 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 const RoutesScrollToTop = () => {
-    // Extracts pathname property (key) from an object
-    const { pathname } = useLocation();
+    const { pathname, hash } = useLocation();
 
-    // Automatically scrolls to top whenever pathname changes
     useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [pathname]);
+        // Don't scroll if there's a hash in the URL
+        if (hash) {
+            return;
+        }
 
-    // Return null since this component does not need to render anything
+        // Use setTimeout to ensure DOM is ready
+        setTimeout(() => {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'instant' // Prevent smooth scrolling interference
+            });
+        }, 0);
+    }, [pathname, hash]);
+
     return null;
 }
 

@@ -4,7 +4,7 @@ interface DataType {
     toggleMenu?: (event: React.MouseEvent) => void;
 }
 
-const MainMenu = ({  toggleMenu }: DataType) => {
+const MainMenu = ({ toggleMenu }: DataType) => {
     return (
         <>
             <ul className="navigation clearfix">
@@ -34,7 +34,7 @@ const MainMenu = ({  toggleMenu }: DataType) => {
                                     <li><Link to="/coming-soon" >Coming Soon</Link></li>
                                     <li><Link to="/contact" >Contact Us</Link></li>
                                     <li><Link to="/services" >Service</Link></li>
-                                    <li><Link to="/services-single/1/1" >Service Single</Link></li>
+                                    <li><Link to="/services-single/1" >Service Single</Link></li>
                                 </ul>
                             </div>
                             <div className="column col-lg-4">
@@ -42,7 +42,7 @@ const MainMenu = ({  toggleMenu }: DataType) => {
                                     <li><Link to="/speakers" >Speakers</Link></li>
                                     <li><Link to="/speaker-single/1" >Speaker Single</Link></li>
                                     <li><Link to="/events" >Events</Link></li>
-                                    <li><Link to="/event-detail/1/1" >Event Single</Link></li>
+                                    <li><Link to="/event-detail/1" >Event Single</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ const MainMenu = ({  toggleMenu }: DataType) => {
                     <Link to="#" onClick={toggleMenu}>Events</Link>
                     <ul className='sub-menu'>
                         <li><Link to="/events">Events</Link></li>
-                        <li><Link to="/event-detail/1/1">Event Detail</Link></li>
+                        <li><Link to="/event-detail/1">Event Detail</Link></li>
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down"></span></div>
                 </li>
