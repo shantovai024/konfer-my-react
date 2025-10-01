@@ -6,6 +6,12 @@ import { Autoplay } from 'swiper/modules';
 import { Link } from "react-router-dom";
 import { Gallery } from "react-photoswipe-gallery";
 
+// Define the type for gallery items
+interface GalleryV2Item {
+    id: number;
+    image: string;
+}
+
 const GalleryV2 = () => {
     return (
         <>
@@ -19,7 +25,7 @@ const GalleryV2 = () => {
                             <div className="sec-title light text-center">
                                 <span className="sub-title">About The Event</span>
                                 <AnimatedText>
-                                    Haven’t booked your seat yet <br /> Get ticket now
+                                    Haven't booked your seat yet <br /> Get ticket now
                                 </AnimatedText>
                             </div>
                             <div className="btn-box text-center">
@@ -57,7 +63,7 @@ const GalleryV2 = () => {
                                 }}
                                 modules={[Autoplay]}
                             >
-                                {galleryV2Data.map(gallery =>
+                                {galleryV2Data.map((gallery: GalleryV2Item) =>
                                     <SwiperSlide className="gallery-block-two" key={gallery.id}>
                                         <SingleGalleryV2 gallery={gallery} />
                                     </SwiperSlide>
