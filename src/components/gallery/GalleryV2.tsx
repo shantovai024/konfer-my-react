@@ -1,5 +1,5 @@
 import AnimatedText from "../animation/AnimatedText";
-import GalleryV2Data from "../../assets/jsonData/gallery/GalleryV2Data.json"
+import galleryV2Data from "../../assets/jsonData/gallery/galleryV2Data.json"
 import SingleGalleryV2 from "./SingleGalleryV2";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
@@ -57,7 +57,7 @@ const GalleryV2 = () => {
                                 }}
                                 modules={[Autoplay]}
                             >
-                                {GalleryV2Data.map(gallery =>
+                                {galleryV2Data.map(gallery =>
                                     <SwiperSlide className="gallery-block-two" key={gallery.id}>
                                         <SingleGalleryV2 gallery={gallery} />
                                     </SwiperSlide>
