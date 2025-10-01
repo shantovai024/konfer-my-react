@@ -6,10 +6,9 @@ interface DataType {
     openMenu: boolean;
     handleCloseMenu: () => void;
     toggleMenu: (e: React.MouseEvent<Element, MouseEvent>) => void;
-    parentMenu?: string;
 }
 
-const MobileMenu = ({ openMenu, handleCloseMenu, toggleMenu, parentMenu }: DataType) => {
+const MobileMenu = ({ openMenu, handleCloseMenu, toggleMenu }: DataType) => {
     return (
         <>
             <div className={`${openMenu ? "mobile-menu-visible" : ""}`}>
@@ -26,7 +25,7 @@ const MobileMenu = ({ openMenu, handleCloseMenu, toggleMenu, parentMenu }: DataT
                             </div>
                             <div className="close-btn" onClick={handleCloseMenu} ><span className="icon fa fa-times"></span></div>
                         </div>
-                        <MainMenu toggleMenu={toggleMenu} parentMenu={parentMenu} />
+                        <MainMenu toggleMenu={toggleMenu} />
                         <ul className="contact-list-one">
                             <li>
                                 <i className="icon lnr-icon-phone-handset"></i>

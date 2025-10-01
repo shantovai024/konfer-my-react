@@ -4,6 +4,7 @@ import HeaderV1 from "../../components/header/HeaderV1";
 import SpeakerInfoContent from "../../components/speakers/SpeakerInfoContent";
 import speakersV1Data from '../../assets/jsonData/speakers/speakersV1Data.json'
 import { useParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const SpeakerSinglePage = () => {
 
@@ -12,6 +13,10 @@ const SpeakerSinglePage = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Konfer - Speaker Single</title>
+            </Helmet>
+
             <div className="page-wrapper">
                 <HeaderV1 />
                 <BreadCrumb title="Speaker's Detail" subtitle="Speaker's Detail" />

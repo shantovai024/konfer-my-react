@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import AboutV1 from "../../components/about/AboutV1";
 import BannerV1 from "../../components/banner/BannerV1";
 import BlogV1 from "../../components/blog/BlogV1";
@@ -18,6 +19,10 @@ import VideoV1 from "../../components/videos/VideoV1";
 const Home1 = () => {
   return (
     <>
+      <Helmet>
+        <title>Konfer - Home</title>
+      </Helmet>
+
       <div className="page-wrapper">
         <HeaderV1 />
         <BannerV1 />

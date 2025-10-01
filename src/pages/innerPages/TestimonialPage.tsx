@@ -10,7 +10,7 @@ const TestimonialPage = () => {
     return (
         <>
             <div className="page-wrapper">
-                <HeaderV2 parentMenu='testimonials' />
+                <HeaderV2 />
                 <BreadCrumb title="testimonials" subtitle="testimonials" />
                 <TestimonialV3 />
                 <TestimonialV2 />

@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet-async";
+import HeaderV3 from "../../components/header/HeaderV3";
 import AboutV3 from "../../components/about/AboutV3";
 import BannerV3 from "../../components/banner/BannerV3";
 import BlogV3 from "../../components/blog/BlogV3";
@@ -16,7 +18,12 @@ import PageSocial from "../../components/utilities/PageSocial";
 const Home3 = () => {
     return (
         <>
+            <Helmet>
+                <title>Konfer - Home 3</title>
+            </Helmet>
+
             <div className="page-wrapper">
+                <HeaderV3 />
                 <BannerV3 />
                 <CountdownV2 />
                 <FeatureV3 />

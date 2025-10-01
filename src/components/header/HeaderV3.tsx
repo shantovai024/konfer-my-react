@@ -8,14 +8,12 @@ import useSidebar from '../../hooks/useSidebar';
 import useMobileMenu from '../../hooks/useMobileMenu';
 import SearchPopup from "./SearchPopup";
 import SidebarV1 from "./SidebarV1";
-import ColorsPalate from "../utilities/ColorsPalate";
 
 interface DataType {
     headerStyle?: string;
-    parentMenu?: string;
 }
 
-const HeaderV3 = ({ headerStyle, parentMenu }: DataType) => {
+const HeaderV3 = ({ headerStyle }: DataType) => {
 
     const isSticky = useStickyMenu();
     const { openSearch, toggle: searchToggle, close: searchClose } = useSearchBar();
@@ -45,7 +43,7 @@ const HeaderV3 = ({ headerStyle, parentMenu }: DataType) => {
                                     </div>
 
                                     <nav className="nav main-menu navbar-expand-lg navbar-light">
-                                        <MainMenu parentMenu={parentMenu} />
+                                        <MainMenu />
                                     </nav>
 
                                     <div className="outer-box">
@@ -72,7 +70,6 @@ const HeaderV3 = ({ headerStyle, parentMenu }: DataType) => {
                     openMenu={openMenu}
                     handleCloseMenu={handleCloseMenu}
                     toggleMenu={toggleMenu}
-                    parentMenu={parentMenu}
                 />
 
             </header>
@@ -80,7 +77,6 @@ const HeaderV3 = ({ headerStyle, parentMenu }: DataType) => {
 
             <SearchPopup openSearch={openSearch} searchClose={searchClose} />
             <SidebarV1 openSidebar={openSidebar} sidebarClose={sidebarClose} />
-            <ColorsPalate />
         </>
     );
 };

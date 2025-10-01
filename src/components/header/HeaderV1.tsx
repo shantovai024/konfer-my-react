@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import MainMenu from './MainMenu';
 import MobileMenu from './MobileMenu';
-import ColorsPalate from '../utilities/ColorsPalate';
 import SidebarV1 from './SidebarV1';
 import SearchPopup from './SearchPopup';
 import useSearchBar from '../../hooks/useSearchBar';
@@ -11,10 +10,9 @@ import useStickyMenu from '../../hooks/useStickyMenu';
 
 interface DataType {
     headerStyle?: string
-    parentMenu?: string;
 }
 
-const HeaderV1 = ({ headerStyle, parentMenu }: DataType) => {
+const HeaderV1 = ({ headerStyle }: DataType) => {
 
     const isSticky = useStickyMenu();
     const { openSearch, toggle: searchToggle, close: searchClose } = useSearchBar();
@@ -46,7 +44,7 @@ const HeaderV1 = ({ headerStyle, parentMenu }: DataType) => {
 
                                 <nav className="main-menu navbar-expand-lg navbar-light">
                                     <div className="collapse navbar-collapse clearfix" id="navbarSupportedContent">
-                                        <MainMenu parentMenu={parentMenu} />
+                                        <MainMenu />
                                     </div>
                                 </nav>
 
@@ -73,14 +71,12 @@ const HeaderV1 = ({ headerStyle, parentMenu }: DataType) => {
                     openMenu={openMenu}
                     handleCloseMenu={handleCloseMenu}
                     toggleMenu={toggleMenu}
-                    parentMenu={parentMenu}
                 />
 
             </header >
 
             <SearchPopup openSearch={openSearch} searchClose={searchClose} />
             <SidebarV1 openSidebar={openSidebar} sidebarClose={sidebarClose} />
-            <ColorsPalate />
         </>
     );
 };

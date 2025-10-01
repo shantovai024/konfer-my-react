@@ -4,6 +4,7 @@ import FooterV3 from "../../components/footer/FooterV3";
 import HeaderV2 from "../../components/header/HeaderV2";
 import eventV2Data from "../../assets/jsonData/event/eventV2Data.json"
 import { useParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const EventSinglePage = () => {
 
@@ -18,6 +19,10 @@ const EventSinglePage = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Konfer - Event Single</title>
+            </Helmet>
+
             <div className="page-wrapper">
                 <HeaderV2 />
                 <BreadCrumb title="Event Single" subtitle="Event Single" />

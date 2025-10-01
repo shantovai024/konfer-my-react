@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import BreadCrumb from "../../components/breadCrumb/BreadCrumb";
 import EventV1 from "../../components/event/EventV1";
 import EventV2 from "../../components/event/EventV2";
@@ -10,6 +11,10 @@ import MarqueeV1 from "../../components/marquee/MarqueeV1";
 const EventsPage = () => {
     return (
         <>
+            <Helmet>
+                <title>Konfer - Events</title>
+            </Helmet>
+
             <div className="page-wrapper">
                 <HeaderV2 />
                 <BreadCrumb title="Events" subtitle="Events" />

@@ -4,6 +4,7 @@ import HeaderV2 from "../../components/header/HeaderV2";
 import ServiceSingleContent from "../../components/services/ServiceSingleContent";
 import featureV3Data from "../../assets/jsonData/feature/featureV3Data.json"
 import { useParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const ServiceSinglePage = () => {
 
@@ -12,6 +13,10 @@ const ServiceSinglePage = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Konfer - Service Single</title>
+            </Helmet>
+
             <div className="page-wrapper">
                 <HeaderV2 />
                 <BreadCrumb title="Service Details" subtitle="Service Details" />

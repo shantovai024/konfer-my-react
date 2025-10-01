@@ -14,10 +14,15 @@ import FooterV2 from "../../components/footer/FooterV2";
 import PageSocial from "../../components/utilities/PageSocial";
 import HeaderV2 from "../../components/header/HeaderV2";
 import ScheduleV1 from "../../components/schedule/ScheduleV1";
+import { Helmet } from "react-helmet-async";
 
 const Home2 = () => {
     return (
         <>
+            <Helmet>
+                <title>Konfer - Home 2</title>
+            </Helmet>
+
             <div className="page-wrapper">
                 <HeaderV2 />
                 <BannerV2 />

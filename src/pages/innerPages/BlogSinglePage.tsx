@@ -4,6 +4,7 @@ import FooterV3 from "../../components/footer/FooterV3";
 import HeaderV2 from "../../components/header/HeaderV2";
 import blogData from "../../assets/jsonData/blog/blogData.json"
 import { useParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const BlogSinglePage = () => {
 
@@ -12,6 +13,10 @@ const BlogSinglePage = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Konfer - Blog Single</title>
+            </Helmet>
+
             <div className="page-wrapper">
                 <HeaderV2 />
                 <BreadCrumb title="Blog Single" subtitle="Blog Single" />

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import BreadCrumb from "../../components/breadCrumb/BreadCrumb";
 import ClientV2 from "../../components/clients/ClientV2";
 import FooterV1 from "../../components/footer/FooterV1";
@@ -11,6 +12,10 @@ import PageSocial from "../../components/utilities/PageSocial";
 const PricingPage = () => {
     return (
         <>
+            <Helmet>
+                <title>Konfer - Pricing</title>
+            </Helmet>
+
             <div className="page-wrapper">
                 <HeaderV3 />
                 <BreadCrumb title="Buy Tickets" subtitle="Buy Tickets" />

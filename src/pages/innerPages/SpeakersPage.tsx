@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import BreadCrumb from "../../components/breadCrumb/BreadCrumb";
 import FooterV2 from "../../components/footer/FooterV2";
 import GalleryV2 from "../../components/gallery/GalleryV2";
@@ -11,6 +12,10 @@ import TestimonialV1 from "../../components/testimonials/TestimonialV1";
 const SpeakersPage = () => {
     return (
         <>
+            <Helmet>
+                <title>Konfer - Speakers</title>
+            </Helmet>
+
             <div className="page-wrapper">
                 <HeaderV1 />
                 <BreadCrumb title="Speakers" subtitle="Speakers" />
