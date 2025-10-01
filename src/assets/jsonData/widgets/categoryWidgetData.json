@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Business Innovation"
+    },
+    {
+        "id": 2,
+        "name": "Leadership & Strategy"
+    },
+    {
+        "id": 3,
+        "name": "Networking & Collaboration"
+    },
+    {
+        "id": 4,
+        "name": "Entrepreneurship Startups"
+    },
+    {
+        "id": 5,
+        "name": "Marketing & Branding"
+    },
+    {
+        "id": 6,
+        "name": "Event Highlights & Recaps"
+    }
+]

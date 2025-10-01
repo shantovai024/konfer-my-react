@@ -12,17 +12,21 @@ import VideoV2 from "../../components/videos/VideoV2";
 import GalleryV2 from "../../components/gallery/GalleryV2";
 import FooterV2 from "../../components/footer/FooterV2";
 import PageSocial from "../../components/utilities/PageSocial";
+import HeaderV2 from "../../components/header/HeaderV2";
+import ScheduleV1 from "../../components/schedule/ScheduleV1";
 
 const Home2 = () => {
     return (
         <>
             <div className="page-wrapper">
+                <HeaderV2 />
                 <BannerV2 />
                 <AboutV2 />
                 <CountdownV1 />
                 <FeatureV2 />
                 <SpeakerV2 />
                 <ClientV2 />
+                <ScheduleV1 />
                 <PriceV2 />
                 <TestimonialV2 />
                 <FaqV1 />

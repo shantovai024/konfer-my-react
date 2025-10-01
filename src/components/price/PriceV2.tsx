@@ -4,10 +4,14 @@ import Counter from "../counter/Counter";
 import PriceV2Button from "./PriceV2Button";
 import SinglePriceV2 from "./SinglePriceV2";
 
-const PriceV2 = () => {
+interface DataType {
+    sectionClass?: string
+}
+
+const PriceV2 = ({ sectionClass }: DataType) => {
     return (
         <>
-            <section className="pricing-section-two">
+            <section className={`pricing-section-two ${sectionClass ? sectionClass : ""}`}>
                 <div className="shape-twentytwo bounce-y" />
                 <div className="auto-container">
                     <div className="pricing-tabs tabs-box">

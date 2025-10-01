@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Harnold Min",
+        "designation": "Lead Speaker",
+        "image": "speaker3-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Kristin Watson",
+        "designation": "Lead Speaker",
+        "image": "speaker3-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dianne Russell",
+        "designation": "Lead Speaker",
+        "image": "speaker3-3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Annette Black",
+        "designation": "Lead Speaker",
+        "image": "speaker3-4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Harnold Min",
+        "designation": "Lead Speaker",
+        "image": "speaker3-1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Kristin Watson",
+        "designation": "Lead Speaker",
+        "image": "speaker3-2.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Dianne Russell",
+        "designation": "Lead Speaker",
+        "image": "speaker3-3.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Annette Black",
+        "designation": "Lead Speaker",
+        "image": "speaker3-4.jpg"
+    }
+]

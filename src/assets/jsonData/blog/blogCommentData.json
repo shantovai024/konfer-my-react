@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "boxClass": "",
+        "avatar": "avatar-1.jpg",
+        "name": "Shawn L. Camargo",
+        "date": "December 27, 2024",
+        "text": "Mauris non dignissim purus, ac commodo diam. Donec sit amet lacinia nulla. Aliquam quis purus in justo pulvinar tempor. Aliquam nulla, sollicitudin at euismod.",
+        "ratings": 5
+    },
+    {
+        "id": 2,
+        "boxClass": "reply-comment",
+        "avatar": "avatar-2.jpg",
+        "name": "Archie J. Warren",
+        "date": "December 27, 2024",
+        "text": "Donec sit amet lacinia nulla. Aliquam quis purus in justo pulvinar tempor. Aliquam nulla, sollicitudin at euismod.",
+        "ratings": 5
+    },
+    {
+        "id": 3,
+        "boxClass": "",
+        "avatar": "avatar-3.jpg",
+        "name": "Roland J. Crenshaw",
+        "date": "December 27, 2024",
+        "text": "Mauris non dignissim purus, ac commodo diam. Donec sit amet lacinia nulla. Aliquam quis purus in justo pulvinar tempor. Aliquam nulla, sollicitudin at euismod.",
+        "ratings": 5
+    }
+]

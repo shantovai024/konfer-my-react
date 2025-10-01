@@ -1,10 +1,11 @@
 import { useTimer } from "react-timer-hook";
 
-interface TimeV1Props {
+interface DataType {
     expiryTimestamp: Date;
 }
 
-const TimeV1: React.FC<TimeV1Props> = ({ expiryTimestamp }) => {
+const TimeV1 = ({ expiryTimestamp }: DataType) => {
+
     const { seconds, minutes, hours, days } = useTimer({
         expiryTimestamp,
         onExpire: () => console.log("Counter Expired"),
@@ -19,10 +20,10 @@ const TimeV1: React.FC<TimeV1Props> = ({ expiryTimestamp }) => {
                 <span className="count">{hours <= 9 ? `0${hours}` : hours}</span>Hours
             </div>
             <div className="counter-column">
-                <span className="count">{minutes <= 9 ? `0${minutes}` : minutes}</span>Minutes
+                <span className="count">{minutes <= 9 ? `0${minutes}` : minutes}</span> Minutes
             </div>
             <div className="counter-column">
-                <span className="count">{seconds <= 9 ? `0${seconds}` : seconds}</span>Second
+                <span className="count">{seconds <= 9 ? `0${seconds}` : seconds}</span> Second
             </div>
         </div>
     );

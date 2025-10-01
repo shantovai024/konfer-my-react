@@ -8,7 +8,7 @@ interface DataType {
 }
 
 const SingleFeatureV2 = ({ feature }: { feature: DataType }) => {
-    const { iconClass, title, text } = feature;
+    const { id, iconClass, title, text } = feature;
 
     return (
         <>
@@ -20,7 +20,7 @@ const SingleFeatureV2 = ({ feature }: { feature: DataType }) => {
             <div className="content">
                 <h5 className="title">{title}</h5>
                 <div className="text">{text}</div>
-                <Link to="/event-single" className="read-more">
+                <Link to={`/event-single/${id}`} className="read-more">
                     <span>Read More</span> <i className="fa fa-arrow-right" />
                 </Link>
             </div>

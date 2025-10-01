@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "activeClass": "",
+        "dayLabel": "1st Day",
+        "target": "#tab-7"
+    },
+    {
+        "id": 2,
+        "activeClass": "active",
+        "dayLabel": "2nd Day",
+        "target": "#tab-8"
+    },
+    {
+        "id": 3,
+        "activeClass": "",
+        "dayLabel": "3rd Day",
+        "target": "#tab-9"
+    }
+]

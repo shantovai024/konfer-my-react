@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "industry Forge innovations",
+        "width": 70,
+        "speed": 1500,
+        "stop": 70
+    },
+    {
+        "id": 2,
+        "title": "Machina Works Service",
+        "width": 80,
+        "speed": 1500,
+        "stop": 80
+    },
+    {
+        "id": 3,
+        "title": "industrial Pulse Solution",
+        "width": 90,
+        "speed": 1500,
+        "stop": 90
+    }
+]

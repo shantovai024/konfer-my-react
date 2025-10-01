@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "activeClass": "",
+        "tabTarget": "#tab1-1",
+        "date": "25/8/2026",
+        "dayName": "Friday",
+        "dayLabel": "Day 01"
+    },
+    {
+        "id": 2,
+        "activeClass": "active",
+        "tabTarget": "#tab1-2",
+        "date": "26/8/2026",
+        "dayName": "Saturday",
+        "dayLabel": "Day 02"
+    },
+    {
+        "id": 3,
+        "activeClass": "",
+        "tabTarget": "#tab1-3",
+        "date": "27/8/2026",
+        "dayName": "Sunday",
+        "dayLabel": "Day 03"
+    }
+]

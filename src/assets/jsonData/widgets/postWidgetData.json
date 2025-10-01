@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "image": "blog-post-1.jpg",
+        "title": "Design Unraveled: Behind the Scenes of UI/UX Magic",
+        "date": "April 2, 2026"
+    },
+    {
+        "id": 2,
+        "image": "blog-post-2.jpg",
+        "title": "Meta Enters AI Chatbot Market it’s Own Virtual Assistant",
+        "date": "April 2, 2026"
+    },
+    {
+        "id": 3,
+        "image": "blog-post-3.jpg",
+        "title": "New Virtual Assistant Gives Technology and Health Studies",
+        "date": "April 2, 2026"
+    }
+]

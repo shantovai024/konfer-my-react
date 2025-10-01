@@ -2,10 +2,14 @@ import SingleFaqV1 from "./SingleFaqV1";
 import faqV1Data from "../../assets/jsonData/faq/faqV1Data.json"
 import AnimatedText from "../animation/AnimatedText";
 
-const FaqV1 = () => {
+interface DataType {
+    sectionClass?: string
+}
+
+const FaqV1 = ({ sectionClass }: DataType) => {
     return (
         <>
-            <section className="faq-section">
+            <section className={`faq-section ${sectionClass ? sectionClass : ""}`}>
                 <div className="shape-twentythree" />
                 <div className="auto-container">
                     <div className="row">

@@ -3,10 +3,14 @@ import ClientV1Data from "../../assets/jsonData/clients/clientV1Data.json"
 import SingleClientV1 from "./SingleClientV1";
 import AnimatedText from "../animation/AnimatedText";
 
-const ClientV1 = () => {
+interface DataType {
+    sectionClass?: string
+}
+
+const ClientV1 = ({ sectionClass }: DataType) => {
     return (
         <>
-            <section className="client-section pt-0">
+            <section className={`client-section  ${sectionClass ? sectionClass : ""}`}>
                 <div className="auto-container">
                     <div className="row">
 

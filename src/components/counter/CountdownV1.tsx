@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import TimeV1 from "./TimeV1";
 import { useMemo } from 'react';
 import AnimatedText from "../animation/AnimatedText";
+import TimeV2 from "./TimeV2";
 
 const CountdownV1 = () => {
 
@@ -27,7 +27,7 @@ const CountdownV1 = () => {
 
                             <div className="timer-column col-xl-4 col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-delay="200">
                                 <div className="time-counter">
-                                    <TimeV1 expiryTimestamp={time} />
+                                    <TimeV2 expiryTimestamp={time} />
                                 </div>
                             </div>
 
@@ -43,7 +43,6 @@ const CountdownV1 = () => {
                     </div>
                 </div>
             </section>
-
         </>
     );
 };

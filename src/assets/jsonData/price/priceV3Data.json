@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "price": 20.00,
+        "title": "SINGLE DAY PASS",
+        "author1": "pricing3-thumb1.png",
+        "author2": "pricing3-thumb2.png",
+        "author3": "pricing3-thumb3.png",
+        "features": [
+            "One catered lunch",
+            "Afternoon snacks",
+            "Fun swag",
+            "Entrance Afterparty"
+        ],
+        "button": "Purchase Ticket",
+        "seats": {
+            "available": 200,
+            "total": 250
+        },
+        "delay": 200
+    },
+    {
+        "id": 2,
+        "price": 90.00,
+        "title": "VIP SEAT WITH FOOD",
+        "author1": "pricing3-thumb4.png",
+        "author2": "pricing3-thumb5.png",
+        "author3": "pricing3-thumb6.png",
+        "features": [
+            "One catered lunch",
+            "Afternoon snacks",
+            "Fun swag",
+            "Entrance Afterparty"
+        ],
+        "button": "Purchase Ticket",
+        "seats": {
+            "available": 200,
+            "total": 250
+        },
+        "delay": 0
+    }
+]

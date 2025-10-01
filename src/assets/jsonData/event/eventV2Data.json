@@ -1,0 +1,143 @@
+[
+    {
+        "id": 1,
+        "tabId": "tab-4",
+        "activeClass": "show active",
+        "tabData": [
+            {
+                "id": 1,
+                "time": "10:00 am - 12:00 pm",
+                "title": "Modern Marketing Summit Sydney 2024",
+                "speaker": "Ashli Scrogey",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            },
+            {
+                "id": 2,
+                "time": "12:00 pm - 02:00 pm",
+                "title": "innovation in Gaming Conference",
+                "speaker": "Michelle Larson",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            },
+            {
+                "id": 3,
+                "time": "02:00 pm - 04:00 pm",
+                "title": "Digital Working Events information",
+                "speaker": "Tina Ortega",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            },
+            {
+                "id": 4,
+                "time": "04:00 pm - 06:00 pm",
+                "title": "Modern Marketing Summit Sydney 2024",
+                "speaker": "David Guetta",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "tabId": "tab-5",
+        "activeClass": "",
+        "tabData": [
+            {
+                "id": 5,
+                "time": "10:00 am - 12:00 pm",
+                "title": "Modern Marketing Summit Sydney 2024",
+                "speaker": "Ashli Scrogey",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            },
+            {
+                "id": 6,
+                "time": "12:00 pm - 02:00 pm",
+                "title": "innovation in Gaming Conference",
+                "speaker": "Michelle Larson",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            },
+            {
+                "id": 7,
+                "time": "02:00 pm - 04:00 pm",
+                "title": "Digital Working Events information",
+                "speaker": "Tina Ortega",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            },
+            {
+                "id": 8,
+                "time": "04:00 pm - 06:00 pm",
+                "title": "Modern Marketing Summit Sydney 2024",
+                "speaker": "David Guetta",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "tabId": "tab-6",
+        "activeClass": "",
+        "tabData": [
+            {
+                "id": 9,
+                "time": "10:00 am - 12:00 pm",
+                "title": "Modern Marketing Summit Sydney 2024",
+                "speaker": "Ashli Scrogey",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            },
+            {
+                "id": 10,
+                "time": "12:00 pm - 02:00 pm",
+                "title": "innovation in Gaming Conference",
+                "speaker": "Michelle Larson",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            },
+            {
+                "id": 11,
+                "time": "02:00 pm - 04:00 pm",
+                "title": "Digital Working Events information",
+                "speaker": "Tina Ortega",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            },
+            {
+                "id": 12,
+                "time": "04:00 pm - 06:00 pm",
+                "title": "Modern Marketing Summit Sydney 2024",
+                "speaker": "David Guetta",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            }
+        ]
+    }
+]

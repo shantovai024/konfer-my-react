@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "icon": "counter1-1.svg",
+        "end": 280,
+        "title": "Event Completed",
+        "delay": 0
+    },
+    {
+        "id": 2,
+        "icon": "counter1-2.svg",
+        "end": 244,
+        "title": "Satisfied Customer",
+        "delay": 200
+    },
+    {
+        "id": 3,
+        "icon": "counter1-3.svg",
+        "end": 137,
+        "title": "Respected Vendor",
+        "delay": 400
+    },
+    {
+        "id": 4,
+        "icon": "counter1-4.svg",
+        "end": 150,
+        "title": "Sponsor & Partners",
+        "delay": 600
+    }
+]

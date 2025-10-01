@@ -1,28 +1,13 @@
-import { gsap } from 'gsap';
-import { useState, useEffect } from 'react';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useState } from 'react';
 import ModalVideo from "react-modal-video";
 import { Link } from "react-router-dom";
-
-gsap.registerPlugin(ScrollTrigger);
+import useExpandAnimation from '../../hooks/useExpandAnimation';
 
 const VideoV2 = () => {
 
     const [isOpen, setOpen] = useState(false);
 
-    useEffect(() => {
-        gsap.to(".expand-section", {
-            width: "100%",  // Expands to full width
-            borderRadius: 0,
-            ease: "power2.out",
-            scrollTrigger: {
-                trigger: ".expand-section",
-                start: "top 70%",
-                end: "top 5%",
-                scrub: true,
-            },
-        });
-    }, []);
+    useExpandAnimation(".expand-section");
 
     return (
         <>
@@ -38,7 +23,7 @@ const VideoV2 = () => {
                                 <span className="ripple" />
                             </Link>
                         </div>
-                        <div className="content-box wow fadeInLeft">
+                        <div className="content-box">
                             <h4 className="sub-title">Ready to start With Us?</h4>
                             <h2 className="title">Explore The Popular <br /> Venues?</h2>
                         </div>

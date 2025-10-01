@@ -4,10 +4,14 @@ import SingleTestimonialV2 from "./SingleTestimonialV2";
 import Counter from "../counter/Counter";
 import { Link } from "react-router-dom";
 
-const TestimonialV2 = () => {
+interface DataType {
+    sectionClass?: string
+}
+
+const TestimonialV2 = ({ sectionClass }: DataType) => {
     return (
         <>
-            <section className="testimonial-section-two parallax-section">
+            <section className={`testimonial-section-two parallax-section ${sectionClass ? sectionClass : ""}`}>
                 <div className="bg-box">
                     <div className="parallax-bg bg bg-image" data-speed="0.5"
                         style={{ backgroundImage: 'url(images/background/7.png)' }} />

@@ -16,7 +16,7 @@ const SingleSpeakerV1 = ({ speaker }: { speaker: DataType }) => {
         <>
             <div className="image-box">
                 <figure className="image">
-                    <Link to={`/speakers-detail/${id}`}>
+                    <Link to={`/speaker-single/${id}`}>
                         <img src={`/images/resource/${thumb}`} alt="image" />
                         <img src={`/images/resource/${thumb}`} alt="image" />
                     </Link>
@@ -30,7 +30,7 @@ const SingleSpeakerV1 = ({ speaker }: { speaker: DataType }) => {
             </div>
             <div className="info-box">
                 <h4 className="name">
-                    <Link to={`/speakers-detail/${id}`}>{name}</Link>
+                    <Link to={`/speaker-single/${id}`}>{name}</Link>
                 </h4>
                 <span className="designation">{designation}</span>
             </div>

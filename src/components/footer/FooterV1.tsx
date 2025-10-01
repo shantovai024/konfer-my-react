@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
 import SocialV1 from "../social/SocialV1";
+import instaWidgetsData from "../../assets/jsonData/widgets/instaWidgetsData.json"
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from 'swiper/modules';
+import SingleInstaGallery from "../gallery/SingleInstaGallery";
+import { Gallery } from 'react-photoswipe-gallery';
 
 const FooterV1 = () => {
     return (
@@ -49,27 +54,51 @@ const FooterV1 = () => {
                                 <div className="footer-widget gallery-widget">
                                     <h3 className="widget-title">Gallery</h3>
                                     <div className="widget-content">
-                                        <div className="swiper gallery-swiper">
-                                            {/* <div className="insta-gallery swiper-wrapper">
-                                                <figure className="image swiper-slide"><a href="images/resource/gallery-thumb-1.jpg" data-rel="lightcase"><img src="images/resource/gallery-thumb-1.jpg" alt="Image" /></a></figure>
-                                                <figure className="image swiper-slide"><a href="images/resource/gallery-thumb-2.jpg" data-rel="lightcase"><img src="images/resource/gallery-thumb-2.jpg" alt="Image" /></a></figure>
-                                                <figure className="image swiper-slide"><a href="images/resource/gallery-thumb-3.jpg" data-rel="lightcase"><img src="images/resource/gallery-thumb-3.jpg" alt="Image" /></a></figure>
-                                                <figure className="image swiper-slide"><a href="images/resource/gallery-thumb-4.jpg" data-rel="lightcase"><img src="images/resource/gallery-thumb-4.jpg" alt="Image" /></a></figure>
-                                                <figure className="image swiper-slide"><a href="images/resource/gallery-thumb-5.jpg" data-rel="lightcase"><img src="images/resource/gallery-thumb-5.jpg" alt="Image" /></a></figure>
-                                                <figure className="image swiper-slide"><a href="images/resource/gallery-thumb-6.jpg" data-rel="lightcase"><img src="images/resource/gallery-thumb-6.jpg" alt="Image" /></a></figure>
-                                                <figure className="image swiper-slide"><a href="images/resource/gallery-thumb-1.jpg" data-rel="lightcase"><img src="images/resource/gallery-thumb-1.jpg" alt="Image" /></a></figure>
-                                                <figure className="image swiper-slide"><a href="images/resource/gallery-thumb-2.jpg" data-rel="lightcase"><img src="images/resource/gallery-thumb-2.jpg" alt="Image" /></a></figure>
-                                                <figure className="image swiper-slide"><a href="images/resource/gallery-thumb-3.jpg" data-rel="lightcase"><img src="images/resource/gallery-thumb-3.jpg" alt="Image" /></a></figure>
-                                                <figure className="image swiper-slide"><a href="images/resource/gallery-thumb-4.jpg" data-rel="lightcase"><img src="images/resource/gallery-thumb-4.jpg" alt="Image" /></a></figure>
-                                                <figure className="image swiper-slide"><a href="images/resource/gallery-thumb-5.jpg" data-rel="lightcase"><img src="images/resource/gallery-thumb-5.jpg" alt="Image" /></a></figure>
-                                                <figure className="image swiper-slide"><a href="images/resource/gallery-thumb-6.jpg" data-rel="lightcase"><img src="images/resource/gallery-thumb-6.jpg" alt="Image" /></a></figure>
-                                            </div> */}
-                                        </div>
+                                        <Gallery withDownloadButton >
+                                            <Swiper className="gallery-swiper"
+                                                slidesPerView={6}
+                                                spaceBetween={10}
+                                                loop={true}
+                                                navigation={{
+                                                    nextEl: ".swiper-button-next",
+                                                    prevEl: ".swiper-button-prev",
+                                                }}
+                                                breakpoints={{
+                                                    1200: {
+                                                        slidesPerView: 6,
+                                                    },
+                                                    1100: {
+                                                        slidesPerView: 8,
+                                                    },
+                                                    768: {
+                                                        slidesPerView: 7,
+                                                    },
+                                                    576: {
+                                                        slidesPerView: 5,
+                                                    },
+                                                    330: {
+                                                        slidesPerView: 4,
+                                                    },
+                                                    0: {
+                                                        slidesPerView: 3,
+                                                    },
+                                                }}
+                                                modules={[Navigation]}
+                                            >
+                                                {instaWidgetsData.map(gallery =>
+                                                    <SwiperSlide className="insta-gallery swiper-wrapper" key={gallery.id}>
+                                                        <SingleInstaGallery gallery={gallery} />
+                                                    </SwiperSlide>
+                                                )}
+                                            </Swiper>
+                                        </Gallery>
+
                                         <div className="nav-box">
                                             <div className="swiper-button-prev"><span className="icon fa fa-arrow-left " /></div>
                                             <div className="swiper-button-next"><span className="icon fa fa-arrow-right " /></div>
                                         </div>
                                     </div>
+
                                     <div className="contact-widget">
                                         <h3 className="widget-title">Information</h3>
                                         <div className="widget-content">
@@ -105,12 +134,12 @@ const FooterV1 = () => {
                         <div className="inner-container">
                             <div className="copyright-text">
                                 &copy; Copyright {(new Date().getFullYear())} All Rights Reserved by
-                                 <Link to="https://themeforest.net/user/expert-themes/portfolio" target='_blank'>Expert-Themes</Link>
+                                <Link to="https://themeforest.net/user/expert-themes/portfolio" target='_blank'> Expert-Themes</Link>
                             </div>
                         </div>
                     </div>
                 </div>
-            </footer>
+            </footer >
 
         </>
     );

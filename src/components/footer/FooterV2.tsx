@@ -93,7 +93,9 @@ const FooterV2 = () => {
                                             <form onSubmit={handleForm}>
                                                 <div className="form-group">
                                                     <input type="email" name="email" className="email" placeholder="Subscribe Email" required />
-                                                    <button type="button" className="button"><i className="flaticon-mail" /></button>
+                                                    <button type="submit" className="button">
+                                                        <i className="flaticon-mail" />
+                                                    </button>
                                                 </div>
                                             </form>
                                         </div>
@@ -121,7 +123,7 @@ const FooterV2 = () => {
                         <div className="inner-container">
                             <div className="copyright-text">
                                 &copy; Copyright {(new Date().getFullYear())} All Rights Reserved by
-                                <Link to="https://themeforest.net/user/expert-themes/portfolio" target='_blank'>Expert-Themes</Link>
+                                <Link to="https://themeforest.net/user/expert-themes/portfolio" target='_blank'> Expert-Themes</Link>
                             </div>
                         </div>
                     </div>

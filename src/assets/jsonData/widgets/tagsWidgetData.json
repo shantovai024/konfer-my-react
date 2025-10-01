@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Conference"
+    },
+    {
+        "id": 2,
+        "name": "Events"
+    },
+    {
+        "id": 3,
+        "name": "Meetup"
+    },
+    {
+        "id": 4,
+        "name": "Innovation"
+    },
+    {
+        "id": 5,
+        "name": "Business Meeting"
+    },
+    {
+        "id": 6,
+        "name": "Product"
+    },
+    {
+        "id": 7,
+        "name": "Technology"
+    }
+]

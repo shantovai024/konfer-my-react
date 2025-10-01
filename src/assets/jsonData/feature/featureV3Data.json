@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "iconClass": "icon flaticon-hall",
+        "title": "Online Conferences",
+        "text": "We Closely Collaborate with our clients to understand the needs and goals of the key to design",
+        "delay": 0
+    },
+    {
+        "id": 2,
+        "iconClass": "icon flaticon-computer",
+        "title": "Forum And Webinars",
+        "text": "We Closely Collaborate with our clients to understand the needs and goals of the key to design",
+        "delay": 200
+    },
+    {
+        "id": 3,
+        "iconClass": "icon flaticon-tickets-1",
+        "title": "Concerts And Festivals",
+        "text": "We Closely Collaborate with our clients to understand the needs and goals of the key to design",
+        "delay": 400
+    },
+    {
+        "id": 4,
+        "iconClass": "icon flaticon-networking",
+        "title": "Events Networking",
+        "text": "We Closely Collaborate with our clients to understand the needs and goals of the key to design",
+        "delay": 600
+    },
+    {
+        "id": 5,
+        "iconClass": "icon flaticon-art-show",
+        "title": "Art Shows & Events",
+        "text": "We Closely Collaborate with our clients to understand the needs and goals of the key to design",
+        "delay": 0
+    },
+    {
+        "id": 6,
+        "iconClass": "icon flaticon-chef",
+        "title": "Cooking Class Events",
+        "text": "We Closely Collaborate with our clients to understand the needs and goals of the key to design",
+        "delay": 200
+    },
+    {
+        "id": 7,
+        "iconClass": "icon flaticon-tickets-1",
+        "title": "Concerts And Festivals",
+        "text": "We Closely Collaborate with our clients to understand the needs and goals of the key to design",
+        "delay": 400
+    },
+    {
+        "id": 8,
+        "iconClass": "icon flaticon-networking",
+        "title": "Events Networking",
+        "text": "We Closely Collaborate with our clients to understand the needs and goals of the key to design",
+        "delay": 600
+    }
+]

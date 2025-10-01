@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Harnold Min",
+    "designation": "Lead Speaker",
+    "image": "speaker4-1.jpg",
+    "shape": "shape shape-fourtyone",
+    "color": ""
+  },
+  {
+    "id": 2,
+    "name": "Harnold Min",
+    "designation": "Lead Speaker",
+    "image": "speaker4-2.png",
+    "shape": "shape shape-fourtytwo",
+    "color": "purple"
+  },
+  {
+    "id": 3,
+    "name": "Harnold Min",
+    "designation": "Lead Speaker",
+    "image": "speaker4-3.jpg",
+    "shape": "shape shape-fourtythree",
+    "color": "green"
+  },
+  {
+    "id": 4,
+    "name": "Harnold Min",
+    "designation": "Lead Speaker",
+    "image": "speaker4-4.jpg",
+    "shape": "shape shape-fourtyfour",
+    "color": ""
+  },
+  {
+    "id": 5,
+    "name": "Harnold Min",
+    "designation": "Lead Speaker",
+    "image": "speaker4-5.png",
+    "shape": "shape shape-fourtyfive",
+    "color": ""
+  },
+  {
+    "id": 6,
+    "name": "Harnold Min",
+    "designation": "Lead Speaker",
+    "image": "speaker4-6.png",
+    "shape": "shape shape-fourtysix",
+    "color": "blue"
+  },
+  {
+    "id": 7,
+    "name": "Harnold Min",
+    "designation": "Lead Speaker",
+    "image": "speaker4-7.png",
+    "shape": "shape shape-fourtyseven",
+    "color": "seagreen"
+  }
+]

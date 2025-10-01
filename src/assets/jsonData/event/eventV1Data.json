@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "tabId": "tab-7",
+        "activeClass": "",
+        "tabData": [
+            {
+                "id": 1,
+                "date": "18",
+                "month": "August",
+                "year": "2024",
+                "title": "Conference About Speaker",
+                "location": "Apple Upper west side, Brook",
+                "time": "10:15 am - 07:15 pm",
+                "btnText": "Buy Tickets",
+                "image": "event1-1.png"
+            },
+            {
+                "id": 2,
+                "date": "18",
+                "month": "August",
+                "year": "2024",
+                "title": "Envato User Experience Expertise",
+                "location": "Apple Upper west side, Brook",
+                "time": "10:15 am - 07:15 pm",
+                "btnText": "Free Event",
+                "image": "event1-1.png"
+            },
+            {
+                "id": 3,
+                "date": "18",
+                "month": "August",
+                "year": "2024",
+                "title": "Apple event : inspiring Creative Solution",
+                "location": "Apple Upper west side, Brook",
+                "time": "10:15 am - 07:15 pm",
+                "btnText": "Sold Out",
+                "image": "event1-1.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "tabId": "tab-8",
+        "activeClass": "show active",
+        "tabData": [
+            {
+                "id": 4,
+                "date": "18",
+                "month": "August",
+                "year": "2024",
+                "title": "Conference About Speaker",
+                "location": "Apple Upper west side, Brook",
+                "time": "10:15 am - 07:15 pm",
+                "btnText": "Buy Tickets",
+                "image": "event1-1.png"
+            },
+            {
+                "id": 5,
+                "date": "18",
+                "month": "August",
+                "year": "2024",
+                "title": "Envato User Experience Expertise",
+                "location": "Apple Upper west side, Brook",
+                "time": "10:15 am - 07:15 pm",
+                "btnText": "Free Event",
+                "image": "event1-1.png"
+            },
+            {
+                "id": 6,
+                "date": "18",
+                "month": "August",
+                "year": "2024",
+                "title": "Apple event : inspiring Creative Solution",
+                "location": "Apple Upper west side, Brook",
+                "time": "10:15 am - 07:15 pm",
+                "btnText": "Sold Out",
+                "image": "event1-1.png"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "tabId": "tab-9",
+        "activeClass": "",
+        "tabData": [
+            {
+                "id": 7,
+                "date": "18",
+                "month": "August",
+                "year": "2024",
+                "title": "Conference About Speaker",
+                "location": "Apple Upper west side, Brook",
+                "time": "10:15 am - 07:15 pm",
+                "btnText": "Buy Tickets",
+                "image": "event1-1.png"
+            },
+            {
+                "id": 8,
+                "date": "18",
+                "month": "August",
+                "year": "2024",
+                "title": "Envato User Experience Expertise",
+                "location": "Apple Upper west side, Brook",
+                "time": "10:15 am - 07:15 pm",
+                "btnText": "Free Event",
+                "image": "event1-1.png"
+            },
+            {
+                "id": 9,
+                "date": "18",
+                "month": "August",
+                "year": "2024",
+                "title": "Apple event : inspiring Creative Solution",
+                "location": "Apple Upper west side, Brook",
+                "time": "10:15 am - 07:15 pm",
+                "btnText": "Sold Out",
+                "image": "event1-1.png"
+            }
+        ]
+    }
+]
