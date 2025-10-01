@@ -18,7 +18,9 @@ const SingleFeatureV2 = ({ feature }: { feature: DataType }) => {
                 <div className="icon-eight" />
             </div>
             <div className="content">
-                <h5 className="title">{title}</h5>
+                <Link to={`/event-single/${id}`}>
+                    <h5 className="title">{title}</h5>
+                </Link>
                 <div className="text">{text}</div>
                 <Link to={`/event-single/${id}`} className="read-more">
                     <span>Read More</span> <i className="fa fa-arrow-right" />

@@ -15,7 +15,7 @@ const RoutesScrollToTop = () => {
             window.scrollTo({
                 top: 0,
                 left: 0,
-                behavior: 'instant' // Prevent smooth scrolling interference
+                behavior: 'smooth' // Prevent smooth scrolling interference
             });
         }, 0);
     }, [pathname, hash]);

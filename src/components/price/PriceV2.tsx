@@ -18,8 +18,8 @@ const PriceV2 = ({ sectionClass }: DataType) => {
                         <div className="row">
 
                             {/* Tabs Column */}
-                            <div className="tabs-column col-xl-6 col-lg-12 col-md-12 col-sm-12 wow fadeInLeft">
-                                <div className="inner-column">
+                            <div className="tabs-column col-xl-6 col-lg-12 col-md-12 col-sm-12" >
+                                <div className="inner-column" data-aos="fade-left">
                                     <div className="sec-title orange">
                                         <span className="sub-title">Conference Ticket Price</span>
                                         <AnimatedText>
@@ -56,8 +56,8 @@ const PriceV2 = ({ sectionClass }: DataType) => {
                             <div className="tabs-content col-xl-6 col-lg-12 col-md-12 col-sm-12">
 
                                 {priceV2Data.map(plan => (
-                                    <div className={`tab tab-pane fade ${plan.tabClass}`} id={plan.tabId} key={plan.id}>
-                                        <div className="outer-box">
+                                    <div className={`tab tab-pane fade ${plan.tabClass}`} id={plan.tabId} key={plan.id} >
+                                        <div className="outer-box" data-aos="fade-right">
                                             <figure className="image bounce-y">
                                                 <img src="/images/resource/pricing2-1.jpg" alt="Image" />
                                             </figure>

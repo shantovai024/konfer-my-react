@@ -11,7 +11,7 @@ const TestimonialPage = () => {
         <>
             <div className="page-wrapper">
                 <HeaderV2 />
-                <BreadCrumb title="testimonials" subtitle="testimonials" />
+                <BreadCrumb title="Testimonials" subtitle="Testimonials" />
                 <TestimonialV3 />
                 <TestimonialV2 />
                 <TestimonialV1 sectionClass="pt-0" />
