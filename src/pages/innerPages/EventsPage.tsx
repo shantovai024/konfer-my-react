@@ -16,7 +16,7 @@ const EventsPage = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV2 />
+                <HeaderV2 parentMenu="events" />
                 <BreadCrumb title="Events" subtitle="Events" />
                 <EventV3 />
                 <MarqueeV1 />

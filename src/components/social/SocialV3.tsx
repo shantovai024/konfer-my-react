@@ -18,7 +18,6 @@ const SocialV3 = () => {
             <li>
                 <Link to="http://twitter.com" target="_blank"><i className="fab fa-twitter" /></Link>
             </li>
-
         </>
     );
 };

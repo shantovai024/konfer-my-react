@@ -18,7 +18,7 @@ const BlogSinglePage = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV2 />
+                <HeaderV2 parentMenu="blogs" />
                 <BreadCrumb title="Blog Single" subtitle="Blog Single" />
                 {data && <BlogSingleContent blogInfo={data} />}
                 <FooterV3 />

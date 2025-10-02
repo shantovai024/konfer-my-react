@@ -16,7 +16,7 @@ const SingleSpeakerV3 = ({ speaker }: { speaker: DataType }) => {
             <div className="image-box">
                 <figure className="image">
                     <Link to={`/speaker-single/${id}`}>
-                        <img src={`images/resource/${image}`} alt="Image" />
+                        <img src={`/images/resource/${image}`} alt="Image" />
                     </Link>
                 </figure>
             </div>

@@ -17,7 +17,7 @@ const ServicesPage = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV3 />
+                <HeaderV3 parentMenu="about" />
                 <BreadCrumb title="Services" subtitle="Services" />
                 <FeatureV3 isFull={true} />
                 <FactV1 />

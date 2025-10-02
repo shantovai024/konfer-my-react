@@ -13,7 +13,7 @@ const ContactUsPage = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV2 />
+                <HeaderV2 parentMenu="about" />
                 <BreadCrumb title="Contact Us" subtitle="contact us" />
                 <ContactPageContent />
                 <FooterV3 />

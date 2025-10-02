@@ -48,7 +48,7 @@ const BlogSingleContent = ({ blogInfo }: { blogInfo: DataType }) => {
                                         </div>
                                         <h3 className="title">{title}</h3>
                                         <div className="text">Artificial Intelligence (AI) and digital technologies are transforming the world in unprecedented ways. From healthcare to finance, education to entertainment, these technologies are revolutionizing every industry and sector. To keep up with the latest trends and developments, businesses and organizations are increasingly turning to AI and digital conferences. These conferences bring together thought leaders, experts, and innovators from around the world to share insights, ideas, and best practices. They offer a platform for networking, learning, and collaboration, and provide a glimpse into the future of AI and digital technologies.</div>
-                                        <div className="text">As AI becomes more prevalent in our lives, there is a growing concern about its impact on society, including issues such as bias, privacy, and accountability. At the AI and Ethics conference, held in January 2023, experts discussed the importance of developing ethical guidelines for AI.</div>
+                                        <div className="text">As AI becomes more prevalent in our lives, there is a growing concern about its impact on society, including issues such as bias, privacy, and accountability. At the AI and Ethics conference, held in January 2025, experts discussed the importance of developing ethical guidelines for AI.</div>
                                     </div>
                                 </div>
                                 <div className="image-box two">
@@ -69,7 +69,7 @@ const BlogSingleContent = ({ blogInfo }: { blogInfo: DataType }) => {
                                 </div>
                                 <div className="title-box">
                                     <h3 className="title">Digital Transformation</h3>
-                                    <div className="text">One of the most significant themes at AI and digital conferences is the ethical implications of AI. As AI becomes more prevalent in our lives, there is a growing concern about its impact on society, including issues such as bias, privacy, and accountability. At the AI and Ethics conference, held in January 2023, experts discussed the importance of developing ethical guidelines for AI. They highlighted the need for transparency.</div>
+                                    <div className="text">One of the most significant themes at AI and digital conferences is the ethical implications of AI. As AI becomes more prevalent in our lives, there is a growing concern about its impact on society, including issues such as bias, privacy, and accountability. At the AI and Ethics conference, held in January 2025, experts discussed the importance of developing ethical guidelines for AI. They highlighted the need for transparency.</div>
                                 </div>
                                 <div className="blockquote">
                                     <h4 className="title">“The Person, Be It Gentleman Or Lady, Who Has Not Pleasure In A Good Novel, Must Be Intolerably Stupid.”</h4>
@@ -77,7 +77,7 @@ const BlogSingleContent = ({ blogInfo }: { blogInfo: DataType }) => {
                                 </div>
                                 <div className="text-box">
                                     <div className="text">Another key theme at AI and digital conferences is digital transformation. As businesses and organizations increasingly rely on digital technologies, there is a growing need for strategies and best practices to navigate this complex landscape.</div>
-                                    <div className="text">At the Digital Transformation conference, held in February 2023, experts discussed the challenges and opportunities of digital transformation. They emphasized the importance of building a culture of innovation, investing in talent and skills development, and leveraging emerging technologies such as AI and blockchain.</div>
+                                    <div className="text">At the Digital Transformation conference, held in February 2025, experts discussed the challenges and opportunities of digital transformation. They emphasized the importance of building a culture of innovation, investing in talent and skills development, and leveraging emerging technologies such as AI and blockchain.</div>
                                 </div>
                                 <div className="tags-box">
                                     <ul className="tags">

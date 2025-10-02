@@ -39,7 +39,7 @@ const AboutV1 = () => {
                                 <AnimatedText>
                                     Meet Web Development <br /> Talents Around Word
                                 </AnimatedText>
-                                <div className="text text-anim">Like previous year this year we are arranging world marketing summit 2024. Its the gathering of all the big and amazing marketing & branding minds from all over the world. Discussing the best techniques for branding to deep dive into consumers mind. Will try to spread best knowledge about marketing.</div>
+                                <div className="text text-anim">Like previous year this year we are arranging world marketing summit 2025. Its the gathering of all the big and amazing marketing & branding minds from all over the world. Discussing the best techniques for branding to deep dive into consumers mind. Will try to spread best knowledge about marketing.</div>
                             </div>
                             <div className="btn-box">
                                 <Link to="/pricing" className="theme-btn btn-style-one icon-btn bg-yellow">

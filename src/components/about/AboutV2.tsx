@@ -38,7 +38,7 @@ const AboutV2 = () => {
                                     <AnimatedText>
                                         Building The <br /> Future of Events & <br /> Conferences
                                     </AnimatedText>
-                                    <div className="text">Like previous year this year we are arranging world marketing summit 2024. Its the gathering of all the big and amazing marketing & branding minds from all over the world. Discussing the best techniques for branding to deep dive into consumers mind. Will try to spread best knowledge about marketing.</div>
+                                    <div className="text">Like previous year this year we are arranging world marketing summit 2025. Its the gathering of all the big and amazing marketing & branding minds from all over the world. Discussing the best techniques for branding to deep dive into consumers mind. Will try to spread best knowledge about marketing.</div>
                                 </div>
                                 <ul className="feature-list-two two-column">
                                     {aboutV2Data.map(about =>

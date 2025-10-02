@@ -3,6 +3,7 @@ import { ScrollToTop } from 'react-simple-scroll-up';
 import { ToastContainer } from 'react-toastify';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import MouseCursor from './MouseCursor';
 
 const Dependency = () => {
 
@@ -19,6 +20,7 @@ const Dependency = () => {
         <>
             <ScrollToTop symbol={<i className="fas fa-long-arrow-up"></i>} />
             <ToastContainer />
+            <MouseCursor />
         </>
     );
 };

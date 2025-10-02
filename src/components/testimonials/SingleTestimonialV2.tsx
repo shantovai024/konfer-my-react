@@ -31,7 +31,7 @@ const SingleTestimonialV2 = ({ testimonial }: { testimonial: DataType }) => {
                         </div>
                         <div className="image-box">
                             <figure className="image">
-                                <img src={`images/resource/${image}`} alt="Image" />
+                                <img src={`/images/resource/${image}`} alt="Image" />
                             </figure>
                         </div>
                     </div>

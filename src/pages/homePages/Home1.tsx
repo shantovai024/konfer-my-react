@@ -24,7 +24,7 @@ const Home1 = () => {
       </Helmet>
 
       <div className="page-wrapper">
-        <HeaderV1 />
+        <HeaderV1 parentMenu='home' />
         <BannerV1 />
         <AboutV1 />
         <MarqueeV1 />

@@ -17,7 +17,7 @@ const SpeakersPage = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV1 />
+                <HeaderV1 parentMenu="speakers" />
                 <BreadCrumb title="Speakers" subtitle="Speakers" />
                 <SpeakerV3 />
                 <SpeakerV1 />

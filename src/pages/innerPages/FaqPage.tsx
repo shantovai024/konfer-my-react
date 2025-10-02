@@ -16,7 +16,7 @@ const FaqPage = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV2 />
+                <HeaderV2 parentMenu="about" />
                 <BreadCrumb title="Faq's" />
                 <FaqV1 sectionClass="two" />
                 <ClientV2 />

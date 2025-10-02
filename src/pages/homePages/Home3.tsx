@@ -23,7 +23,7 @@ const Home3 = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV3 />
+                <HeaderV3 parentMenu='home' />
                 <BannerV3 />
                 <CountdownV2 />
                 <FeatureV3 />

@@ -5915,6 +5915,7 @@ Main Header
   -ms-flex-pack: center;
   justify-content: center;
   gap: 2px;
+  z-index: 11;
 }
 
 .banner-section.style-two .swiper-pagination .swiper-pagination-bullet {
@@ -6498,6 +6499,7 @@ Main Header
   -ms-flex-pack: center;
   justify-content: center;
   gap: 2px;
+  z-index: 11;
 }
 
 .banner-section-two.style-two .swiper-pagination .swiper-pagination-bullet {
@@ -21435,6 +21437,38 @@ form .response .text-info {
   margin-bottom: 50px;
 }
 
+.blog-single .content-column .inner-column .image-box.two .image-outer {
+  position: relative;
+}
+
+.blog-single .content-column .inner-column .image-box.two .image-outer .icon-twentyseven {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.icon-twentyseven {
+  width: 86px;
+  height: 51px;
+  background-image: url(/images/icons/icon-twentyseven.png);
+  background-repeat: no-repeat;
+}
+
+.blog-single .content-column .inner-column .image-box.two .image-outer .icon-twentyeight {
+  position: absolute;
+  bottom: 9px;
+  right: 0;
+  z-index: 1;
+}
+
+.icon-twentyeight {
+  width: 86px;
+  height: 51px;
+  background-image: url(/images/icons/icon-twentyeight.png);
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 575.98px) {
   .blog-single .content-column .inner-column .image-box.two {
     flex-direction: column;
@@ -21443,7 +21477,7 @@ form .response .text-info {
 }
 
 .blog-single .content-column .inner-column .image-box.two .image {
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 
 .blog-single .content-column .inner-column .title-box {
@@ -26044,4 +26078,22 @@ svg.swiper-navigation-icon path {
 .swiper-rtl .swiper-button-prev {
   right: var(--swiper-navigation-sides-offset, 10px);
   left: auto;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+  display: inline-block;
+  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+  background: var(--swiper-pagination-bullet-inactive-color, #000);
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
 }

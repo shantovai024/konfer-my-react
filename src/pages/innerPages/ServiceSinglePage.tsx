@@ -18,7 +18,7 @@ const ServiceSinglePage = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV2 />
+                <HeaderV2 parentMenu="about" />
                 <BreadCrumb title="Service Details" subtitle="Service Details" />
                 {data && <ServiceSingleContent serviceInfo={data} />}
                 <FooterV3 />

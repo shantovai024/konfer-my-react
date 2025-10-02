@@ -19,7 +19,7 @@ const FactV1 = () => {
                             </AnimatedText>
                         </div>
                         <div className="text-box">
-                            <div className="text">Like previous year this year we are arranging world marketing summit 2024. Its the gathering of all the big and amazing marketing & branding minds from all over the world. Discussing the best techniques for branding to deep dive into consumers mind. Will try to spread best knowledge about marketing.</div>
+                            <div className="text">Like previous year this year we are arranging world marketing summit 2025. Its the gathering of all the big and amazing marketing & branding minds from all over the world. Discussing the best techniques for branding to deep dive into consumers mind. Will try to spread best knowledge about marketing.</div>
                             <div className="btn-box">
                                 <Link to="/event" className="theme-btn btn-style-one bg-orange">
                                     <span className="btn-title">Discover More</span>

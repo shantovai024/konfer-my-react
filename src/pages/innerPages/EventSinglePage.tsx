@@ -24,7 +24,7 @@ const EventSinglePage = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV2 />
+                <HeaderV2 parentMenu="events" />
                 <BreadCrumb title="Event Single" subtitle="Event Single" />
                 {data && <EventSingleContent eventInfo={data} />}
                 <FooterV3 />

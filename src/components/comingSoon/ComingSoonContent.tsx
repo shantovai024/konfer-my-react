@@ -9,7 +9,7 @@ interface FormEventHandler {
 
 const ComingSoonContent = () => {
 
-    const time = useMemo(() => new Date("Mar 07 2026"), []);
+    const time = useMemo(() => new Date("Nov 07 2026"), []);
 
     const handleForm: FormEventHandler = (event) => {
         event.preventDefault()

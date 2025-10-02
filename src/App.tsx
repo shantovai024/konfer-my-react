@@ -18,9 +18,23 @@ import '../src/assets/css/responsive.css'
 import Dependency from "./components/utilities/Dependency"
 import Routers from "./Routers"
 import RoutesScrollToTop from './components/utilities/RoutesScrollToTop'
+import Preloader from './components/utilities/Preloader'
+import { useEffect, useState } from 'react'
 
 function App() {
-  return (
+
+  // Preloader
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    Promise.all([
+      document.fonts.ready,
+    ])
+      .then(() => setIsLoading(false))
+      .catch(() => setIsLoading(false))
+  }, [])
+
+  return isLoading ? <Preloader /> : (
     <>
       <Routers />
       <RoutesScrollToTop />

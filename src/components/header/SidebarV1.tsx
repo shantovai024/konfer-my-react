@@ -14,9 +14,9 @@ const SidebarV1 = ({ openSidebar, sidebarClose }: DataType) => {
                 <div className="inner-box">
                     <div className="upper-box">
                         <div className="logo-box">
-                            <div className="nav-logo light">
+                            <div className="nav-logo">
                                 <Link to="/">
-                                    <img src="/images/logo.svg" alt="image" />
+                                    <img src="/images/logo-2.svg" alt="image" />
                                 </Link>
                             </div>
                         </div>

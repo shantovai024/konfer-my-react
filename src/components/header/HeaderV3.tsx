@@ -11,9 +11,10 @@ import SidebarV1 from "./SidebarV1";
 
 interface DataType {
     headerStyle?: string;
+    parentMenu?: string;
 }
 
-const HeaderV3 = ({ headerStyle }: DataType) => {
+const HeaderV3 = ({ headerStyle, parentMenu }: DataType) => {
 
     const isSticky = useStickyMenu();
     const { openSearch, toggle: searchToggle, close: searchClose } = useSearchBar();
@@ -43,7 +44,7 @@ const HeaderV3 = ({ headerStyle }: DataType) => {
                                     </div>
 
                                     <nav className="nav main-menu navbar-expand-lg navbar-light">
-                                        <MainMenu />
+                                        <MainMenu parentMenu={parentMenu} />
                                     </nav>
 
                                     <div className="outer-box">

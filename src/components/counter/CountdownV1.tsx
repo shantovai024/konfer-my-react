@@ -5,7 +5,7 @@ import TimeV2 from "./TimeV2";
 
 const CountdownV1 = () => {
 
-    const time = useMemo(() => new Date("Mar 07 2026"), []);
+    const time = useMemo(() => new Date("Nov 07 2026"), []);
 
     return (
         <>

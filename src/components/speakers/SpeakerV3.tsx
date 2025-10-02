@@ -17,6 +17,17 @@ const SpeakerV3 = () => {
         );
     };
 
+    // Active Testimonial on Hover 
+    const [activeSpeakerId, setActiveSpeakerId] = useState(speakersV3Data[0]?.id || null);
+
+    const handleMouseEnter = (id: number) => {
+        setActiveSpeakerId(id);
+    };
+
+    const handleMouseLeave = () => {
+        // Do nothing on mouse leave to keep the active item
+    };
+
     return (
         <section className="speakers-section-three">
             <div className="bg bg-pattern-6" />
@@ -72,7 +83,11 @@ const SpeakerV3 = () => {
                     >
                         {speakersV3Data.map((speaker) => (
                             <SwiperSlide className="speaker-block-three" key={speaker.id}>
-                                <div className="inner-box">
+                                <div
+                                    className={`inner-box ${activeSpeakerId === speaker.id ? "active" : ""}`}
+                                    onMouseEnter={() => handleMouseEnter(speaker.id)}
+                                    onMouseLeave={handleMouseLeave}
+                                >
                                     <SingleSpeakerV3 speaker={speaker} />
                                 </div>
                             </SwiperSlide>

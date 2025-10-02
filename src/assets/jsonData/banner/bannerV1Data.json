@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "bgImage": "1.png",
+        "signImage": "banner-sign.png",
+        "designation": "GUEST SPEAKER",
+        "lineImage": "icon-line.png",
+        "title": "Conference",
+        "subtitle": "For insights",
+        "smallImages": [
+            "user-1.png",
+            "user-2.png",
+            "user-3.png"
+        ],
+        "country": "Germany",
+        "address": "1047 Brea Mall #1047 Brea, CA 92821",
+        "buttonText": "Registration Now"
+    },
+    {
+        "id": 2,
+        "bgImage": "1.png",
+        "signImage": "banner-sign.png",
+        "designation": "GUEST SPEAKER",
+        "lineImage": "icon-line.png",
+        "title": "Conference",
+        "subtitle": "For insights",
+        "smallImages": [
+            "user-1.png",
+            "user-2.png",
+            "user-3.png"
+        ],
+        "country": "Germany",
+        "address": "1047 Brea Mall #1047 Brea, CA 92821",
+        "buttonText": "Registration Now"
+    },
+    {
+        "id": 3,
+        "bgImage": "1.png",
+        "signImage": "banner-sign.png",
+        "designation": "GUEST SPEAKER",
+        "lineImage": "icon-line.png",
+        "title": "Conference",
+        "subtitle": "For insights",
+        "smallImages": [
+            "user-1.png",
+            "user-2.png",
+            "user-3.png"
+        ],
+        "country": "Germany",
+        "address": "1047 Brea Mall #1047 Brea, CA 92821",
+        "buttonText": "Registration Now"
+    }
+]

@@ -50,8 +50,8 @@ const SingleBlogV1 = ({ blog }: { blog: DataType }) => {
                 <div className="image-box">
                     <figure className="image">
                         <Link to={`/blog-single/${id}`}>
-                            <img src={`images/resource/${image}`} alt={title} />
-                            <img src={`images/resource/${image}`} alt={title} />
+                            <img src={`/images/resource/${image}`} alt={title} />
+                            <img src={`/images/resource/${image}`} alt={title} />
                         </Link>
                     </figure>
                 </div>

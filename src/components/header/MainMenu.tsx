@@ -2,13 +2,14 @@ import { Link } from "react-router-dom";
 
 interface DataType {
     toggleMenu?: (event: React.MouseEvent) => void;
+    parentMenu?: string;
 }
 
-const MainMenu = ({ toggleMenu }: DataType) => {
+const MainMenu = ({ toggleMenu, parentMenu }: DataType) => {
     return (
         <>
             <ul className="navigation clearfix">
-                <li className={`dropdown`} onClick={toggleMenu}>
+                <li className={`dropdown ${parentMenu === 'home' ? 'current' : ''}`} onClick={toggleMenu}>
                     <Link to="#" >Home</Link>
                     <ul className='sub-menu'>
                         <li><Link to="/">Home 01</Link></li>
@@ -17,7 +18,7 @@ const MainMenu = ({ toggleMenu }: DataType) => {
                     </ul>
                     <div className="dropdown-btn" ><span className="fa fa-angle-down"></span></div>
                 </li>
-                <li className={`dropdown`} onClick={toggleMenu}>
+                <li className={`dropdown ${parentMenu === 'about' ? 'current' : ''}`} onClick={toggleMenu}>
                     <Link to="#" onClick={toggleMenu}>Pages</Link>
                     <div className="mega-menu sub-menu">
                         <div className="mega-menu-bar row">
@@ -50,7 +51,7 @@ const MainMenu = ({ toggleMenu }: DataType) => {
 
                     <div className="dropdown-btn" ><span className="fa fa-angle-down"></span></div>
                 </li>
-                <li className={`dropdown`} onClick={toggleMenu}>
+                <li className={`dropdown ${parentMenu === 'events' ? 'current' : ''}`} onClick={toggleMenu}>
                     <Link to="#" onClick={toggleMenu}>Events</Link>
                     <ul className='sub-menu'>
                         <li><Link to="/events">Events</Link></li>
@@ -58,7 +59,7 @@ const MainMenu = ({ toggleMenu }: DataType) => {
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down"></span></div>
                 </li>
-                <li className={`dropdown`} onClick={toggleMenu}>
+                <li className={`dropdown ${parentMenu === 'speakers' ? 'current' : ''}`} onClick={toggleMenu}>
                     <Link to="#" onClick={toggleMenu}>Speakers</Link>
                     <ul className='sub-menu'>
                         <li><Link to="/speakers">Speakers</Link></li>
@@ -66,7 +67,7 @@ const MainMenu = ({ toggleMenu }: DataType) => {
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down"></span></div>
                 </li>
-                <li className={`dropdown`} onClick={toggleMenu}>
+                <li className={`dropdown ${parentMenu === 'blogs' ? 'current' : ''}`} onClick={toggleMenu}>
                     <Link to="#" onClick={toggleMenu}>Blogs</Link>
                     <ul className='sub-menu'>
                         <li><Link to="/blogs">Blogs</Link></li>

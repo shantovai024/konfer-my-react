@@ -12,7 +12,7 @@ const BlogPage = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV1 />
+                <HeaderV1 parentMenu="blogs" />
                 <BreadCrumb title="Latest News" subtitle="Latest News" />
                 <BlogPageContent />
                 <FooterV3 />

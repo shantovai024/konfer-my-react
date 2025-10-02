@@ -24,7 +24,7 @@ const Home2 = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV2 />
+                <HeaderV2 parentMenu='home' />
                 <BannerV2 />
                 <AboutV2 />
                 <CountdownV1 />

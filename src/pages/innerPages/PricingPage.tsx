@@ -17,7 +17,7 @@ const PricingPage = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV3 />
+                <HeaderV3 parentMenu="about" />
                 <BreadCrumb title="Buy Tickets" subtitle="Buy Tickets" />
                 <PriceV1 />
                 <PriceV3 />

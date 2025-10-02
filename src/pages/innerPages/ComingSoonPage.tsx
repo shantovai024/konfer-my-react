@@ -13,7 +13,7 @@ const ComingSoonPage = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV2 />
+                <HeaderV2 parentMenu="about" />
                 <BreadCrumb title="Coming Soon" subtitle="Coming Soon" />
                 <ComingSoonContent />
                 <FooterV3 />

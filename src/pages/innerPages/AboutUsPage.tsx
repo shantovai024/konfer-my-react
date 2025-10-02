@@ -21,7 +21,7 @@ const AboutUsPage = () => {
             </Helmet>
 
             <div className="page-wrapper">
-                <HeaderV3 />
+                <HeaderV3 parentMenu="about" />
                 <BreadCrumb title="About Us" subtitle="About Us" />
                 <AboutV1 />
                 <MarqueeV1 />
