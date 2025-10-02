@@ -94,8 +94,8 @@ const FooterV1 = () => {
                                         </Gallery>
 
                                         <div className="nav-box">
-                                            <div className="swiper-button-prev"><span className="icon fa fa-arrow-left " /></div>
-                                            <div className="swiper-button-next"><span className="icon fa fa-arrow-right " /></div>
+                                            <div className="swiper-button-prev"><span className="icon fa fa-arrow-left" /></div>
+                                            <div className="swiper-button-next"><span className="icon fa fa-arrow-right" /></div>
                                         </div>
                                     </div>
 
@@ -140,7 +140,6 @@ const FooterV1 = () => {
                     </div>
                 </div>
             </footer >
-
         </>
     );
 };

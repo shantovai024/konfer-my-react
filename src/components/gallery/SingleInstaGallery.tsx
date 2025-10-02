@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom';
 interface DataType {
     id: number;
     image: string;
+    imageFull: string;
 }
 
 const SingleInstaGallery = ({ gallery }: { gallery: DataType }) => {
-    const { image } = gallery
+    const { image, imageFull } = gallery
 
     return (
         <>
@@ -18,10 +19,10 @@ const SingleInstaGallery = ({ gallery }: { gallery: DataType }) => {
                 <div className="overlay-box">
                     <Link className='insta-image' to="#">
                         <Item
-                            original={`/images/resource/${image}`}
+                            original={`/images/resource/${imageFull}`}
                             thumbnail={`/images/resource/${image}`}
-                            width="100"
-                            height="100"
+                            width="480"
+                            height="580"
                         >
                             {({ ref, open }) => (
                                 <span ref={ref} onClick={open} className='fa-solid fa-up-down-left-right' />

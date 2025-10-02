@@ -33,7 +33,7 @@ const MainMenu = ({ toggleMenu }: DataType) => {
                                 <ul>
                                     <li><Link to="/coming-soon" >Coming Soon</Link></li>
                                     <li><Link to="/contact" >Contact Us</Link></li>
-                                    <li><Link to="/services" >Service</Link></li>
+                                    <li><Link to="/services" >Services</Link></li>
                                     <li><Link to="/service-single/1" >Service Single</Link></li>
                                 </ul>
                             </div>
