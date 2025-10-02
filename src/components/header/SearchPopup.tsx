@@ -25,7 +25,7 @@ const SearchPopup = ({ openSearch, searchClose }: DataType) => {
                 <div className="search-inner">
                     <form onSubmit={handleSearch}>
                         <div className="form-group">
-                            <input type="search" name="search-field" value="" autoComplete='off' placeholder="Search..." required />
+                            <input type="search" name="search-field" autoComplete='off' placeholder="Search..." required />
                             <button type="submit"><i className="fa fa-search"></i></button>
                         </div>
                     </form>

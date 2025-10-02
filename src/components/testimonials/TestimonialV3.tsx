@@ -15,11 +15,9 @@ const TestimonialV3 = () => {
             <div className="auto-container">
                 <div className="sec-title orange text-center">
                     <span className="sub-title">Testimonial</span>
-                    <h2 className="text-reveal-anim">
-                        <AnimatedText>
-                            Our Valued Customer <br /> Say That
-                        </AnimatedText>
-                    </h2>
+                    <AnimatedText>
+                        Our Valued Customer <br /> Say That
+                    </AnimatedText>
                 </div>
 
                 {/* Thumb Slider */}

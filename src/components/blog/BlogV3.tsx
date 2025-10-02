@@ -18,18 +18,21 @@ const BlogV3 = () => {
 
                             <div className="row">
                                 {blogV1Data.slice(6, 8).map(blog =>
-                                    <div className="news-block-three col-lg-6 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay={blog.delay}>
-                                        <SingleBlogV3 blog={blog} key={blog.id} />
+                                    <div className="news-block-three col-lg-6 col-md-6 col-sm-12"
+                                        data-aos="fade-up"
+                                        data-aos-delay={blog.delay}
+                                        key={blog.id}
+                                    >
+                                        <SingleBlogV3 blog={blog} />
                                     </div>
                                 )}
                             </div>
 
                             {blogV1Data.slice(8, 9).map(blog =>
-                                <div className="news-block-three two col-lg-6 col-md-6 col-sm-12">
-                                    <SingleBlogV3 blog={blog} key={blog.id} />
+                                <div className="news-block-three two col-lg-6 col-md-6 col-sm-12" key={blog.id}>
+                                    <SingleBlogV3 blog={blog} />
                                 </div>
                             )}
-
                         </div>
 
                         <div className="blocks-column col-xl-4 col-lg-6 col-md-12 col-sm-12">

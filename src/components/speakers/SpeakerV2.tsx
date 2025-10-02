@@ -25,14 +25,12 @@ const SpeakerV2 = () => {
                         <div className="blocks-column col-xl-7 col-lg-12 col-md-12 col-sm-12">
                             <div className="inner-column">
                                 {speakersV2Data.map(speaker =>
-                                    <div className="speaker-block-two has-active"  >
+                                    <div className="speaker-block-two has-active" key={speaker.id} >
                                         <div
-                                            key={speaker.id}
                                             className={`inner-box ${activeSpeakerId === speaker.id ? "active" : ""}`}
                                             onMouseEnter={() => handleMouseEnter(speaker.id)}
                                             onMouseLeave={handleMouseLeave}>
-
-                                            <SingleSpeakerV2 speaker={speaker} key={speaker.id} />
+                                            <SingleSpeakerV2 speaker={speaker} />
                                         </div>
                                     </div>
                                 )}

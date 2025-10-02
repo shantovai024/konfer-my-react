@@ -36,7 +36,7 @@ const ContactForm = () => {
                                     <input name="phone" className="phone" type="text" placeholder="Enter Phone" required />
                                 </div>
                                 <div className="form-group col-sm-12">
-                                    <textarea name="message" className="message" placeholder="Enter Message" required defaultValue={""} />
+                                    <textarea name="message" className="message" placeholder="Enter Message" required />
                                 </div>
                                 <div className="form-group col-sm-12">
                                     <button type="submit" id="submit" className="theme-btn btn-style-one hover-dark">

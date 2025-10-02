@@ -30,11 +30,9 @@ const AboutV3 = () => {
                             <div className="inner-column">
                                 <div className="sec-title orange">
                                     <span className="sub-title">About Company</span>
-                                    <h2 className="text-reveal-anim">
-                                        <AnimatedText>
-                                            International <br /> Business Event For Conferences
-                                        </AnimatedText>
-                                    </h2>
+                                    <AnimatedText>
+                                        International <br /> Business Event For Conferences
+                                    </AnimatedText>
                                     <div className="text">There are many variations of passages of avail but the majority have suffered alteration in some form, by injected humor, or randomized words.</div>
                                 </div>
                                 <div className="bottom-box">

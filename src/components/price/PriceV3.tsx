@@ -56,11 +56,9 @@ const PriceV3 = () => {
                             <div className="inner-column">
                                 <div className="sec-title orange">
                                     <span className="sub-title">About The Event</span>
-                                    <h2 className="text-reveal-anim">
-                                        <AnimatedText>
-                                            International Business
-                                        </AnimatedText>
-                                    </h2>
+                                    <AnimatedText>
+                                        International Business
+                                    </AnimatedText>
                                 </div>
 
                                 <div className="text">This conference is created by professional designers for other designers, improve their knowledge in design sphere. We community for years, that is why we have our audience.</div>

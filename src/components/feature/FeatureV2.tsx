@@ -29,12 +29,16 @@ const FeatureV2 = () => {
                             </div>
 
                             {featureV2Data.slice(0, 2).map(feature =>
-                                <div className="feature-block-two has-active" data-aos="fade-up" data-aos-delay={feature.delay}>
+                                <div className="feature-block-two has-active"
+                                    data-aos="fade-up"
+                                    data-aos-delay={feature.delay}
+                                    key={feature.id}
+                                >
                                     <div className={`inner-box ${activeFeatureId === feature.id ? 'active' : ''}`}
                                         onMouseEnter={() => handleMouseEnter(feature.id)}
                                         onMouseLeave={handleMouseLeave}
                                     >
-                                        <SingleFeatureV2 feature={feature} key={feature.id} />
+                                        <SingleFeatureV2 feature={feature} />
                                     </div>
                                 </div>
                             )}
@@ -42,12 +46,16 @@ const FeatureV2 = () => {
 
                         <div className="blocks-box col-xl-6 col-lg-12 col-md-12 col-sm-12">
                             {featureV2Data.slice(2, 5).map(feature =>
-                                <div className="feature-block-two has-active" data-aos="fade-up" data-aos-delay={feature.delay}>
+                                <div className="feature-block-two has-active"
+                                    data-aos="fade-up"
+                                    data-aos-delay={feature.delay}
+                                    key={feature.id}
+                                >
                                     <div className={`inner-box ${activeFeatureId === feature.id ? 'active' : ''}`}
                                         onMouseEnter={() => handleMouseEnter(feature.id)}
                                         onMouseLeave={handleMouseLeave}
                                     >
-                                        <SingleFeatureV2 feature={feature} key={feature.id} />
+                                        <SingleFeatureV2 feature={feature} />
                                     </div>
                                 </div>
                             )}

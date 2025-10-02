@@ -54,7 +54,7 @@ const MainMenu = ({ toggleMenu }: DataType) => {
                     <Link to="#" onClick={toggleMenu}>Events</Link>
                     <ul className='sub-menu'>
                         <li><Link to="/events">Events</Link></li>
-                        <li><Link to="/event-single/1">Event Detail</Link></li>
+                        <li><Link to="/event-single/1">Event Single</Link></li>
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down"></span></div>
                 </li>
@@ -62,7 +62,7 @@ const MainMenu = ({ toggleMenu }: DataType) => {
                     <Link to="#" onClick={toggleMenu}>Speakers</Link>
                     <ul className='sub-menu'>
                         <li><Link to="/speakers">Speakers</Link></li>
-                        <li><Link to="/speaker-single/1">Speaker Detail</Link></li>
+                        <li><Link to="/speaker-single/1">Speaker Single</Link></li>
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down"></span></div>
                 </li>

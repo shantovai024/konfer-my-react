@@ -24,11 +24,9 @@ const SpeakerV3 = () => {
                 <div className="sec-title-outer">
                     <div className="sec-title orange mb-0">
                         <span className="sub-title">SPEAKERS</span>
-                        <h2 className="text-reveal-anim">
-                            <AnimatedText>
-                                Meet Now Our <br /> Incredible Speakers
-                            </AnimatedText>
-                        </h2>
+                        <AnimatedText>
+                            Meet Now Our <br /> Incredible Speakers
+                        </AnimatedText>
                     </div>
                     <div className="text-box">
                         <div className="btn-box">

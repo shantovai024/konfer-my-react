@@ -14,11 +14,9 @@ const FactV1 = () => {
                     <div className="sec-title-outer">
                         <div className="sec-title light mb-0">
                             <span className="sub-title">Why Choose Us</span>
-                            <h2 className="text-reveal-anim">
-                                <AnimatedText>
-                                    We Turning <br /> Your Dream into Reality.
-                                </AnimatedText>
-                            </h2>
+                            <AnimatedText>
+                                We Turning <br /> Your Dream into Reality.
+                            </AnimatedText>
                         </div>
                         <div className="text-box">
                             <div className="text">Like previous year this year we are arranging world marketing summit 2024. Its the gathering of all the big and amazing marketing & branding minds from all over the world. Discussing the best techniques for branding to deep dive into consumers mind. Will try to spread best knowledge about marketing.</div>
