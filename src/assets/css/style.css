@@ -1635,10 +1635,11 @@ Scroll To Top style
   left: 0px;
   top: 0px;
   height: 14px;
-  width: 0px;
+  width: 0%;
   border-radius: 10px;
   background: var(--theme-color4);
-  transition: all 3000ms ease;
+  transition: width 3000ms ease;
+  will-change: width;
 }
 
 .rtl .skills .skill-item .skill-bar .bar-inner .bar {
@@ -15407,6 +15408,7 @@ Main Header
   background-color: var(--theme-color2);
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+  display: inline-block;
 }
 
 .speaker-block .inner-box .image-box .social-links a:hover {

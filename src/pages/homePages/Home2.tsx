@@ -13,8 +13,8 @@ import GalleryV2 from "../../components/gallery/GalleryV2";
 import FooterV2 from "../../components/footer/FooterV2";
 import PageSocial from "../../components/utilities/PageSocial";
 import HeaderV2 from "../../components/header/HeaderV2";
-import ScheduleV1 from "../../components/schedule/ScheduleV1";
 import { Helmet } from "react-helmet-async";
+import EventV2 from "../../components/event/EventV2";
 
 const Home2 = () => {
     return (
@@ -31,7 +31,7 @@ const Home2 = () => {
                 <FeatureV2 />
                 <SpeakerV2 />
                 <ClientV2 />
-                <ScheduleV1 />
+                <EventV2 />
                 <PriceV2 />
                 <TestimonialV2 />
                 <FaqV1 />

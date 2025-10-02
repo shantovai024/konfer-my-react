@@ -10,10 +10,10 @@ import FooterV3 from "../../components/footer/FooterV3";
 import MarqueeV2 from "../../components/marquee/MarqueeV2";
 import MarqueeV3 from "../../components/marquee/MarqueeV3";
 import PriceV3 from "../../components/price/PriceV3";
-import ScheduleV1 from "../../components/schedule/ScheduleV1";
 import SpeakerV3 from "../../components/speakers/SpeakerV3";
 import TestimonialV3 from "../../components/testimonials/TestimonialV3";
 import PageSocial from "../../components/utilities/PageSocial";
+import EventV3 from "../../components/event/EventV3";
 
 const Home3 = () => {
     return (
@@ -30,7 +30,7 @@ const Home3 = () => {
                 <AboutV3 />
                 <SpeakerV3 />
                 <FactV1 />
-                <ScheduleV1 />
+                <EventV3 />
                 <MarqueeV2 />
                 <PriceV3 />
                 <TestimonialV3 />
