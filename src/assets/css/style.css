@@ -44,6 +44,7 @@ License: copyright commercial*/
 38. Checkout Section
 39. Schedule Section
 **********************************************/
+
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
@@ -1982,15 +1983,6 @@ Scroll To Top style
   background-image: url(/images/icons/btn-bg.png);
 }
 
-.video-text {
-  width: 206px;
-  height: 206px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url(/images/icons/video-text.png);
-}
-
 .testi-shape-one {
   width: 109px;
   height: 80px;
@@ -2108,12 +2100,6 @@ Scroll To Top style
   background-image: url(/images/icons/icon-star.png);
 }
 
-.icon-video {
-  width: 123px;
-  height: 123px;
-  background-image: url(/images/icons/icon-video.png);
-}
-
 .icon-one {
   width: 97px;
   height: 156px;
@@ -2160,12 +2146,6 @@ Scroll To Top style
   width: 119px;
   height: 124px;
   background-image: url(/images/icons/icon-eight.png);
-}
-
-.icon-nine {
-  width: 224px;
-  height: 224px;
-  background-image: url(/images/icons/icon-nine.png);
 }
 
 .icon-ten {
@@ -6186,7 +6166,7 @@ Main Header
   }
 }
 
-.banner-section .content-box .title span {
+.banner-section .content-box .title span.text-light {
   font-weight: 400;
 }
 
