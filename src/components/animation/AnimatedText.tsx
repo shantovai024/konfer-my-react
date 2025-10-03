@@ -8,7 +8,6 @@ const AnimatedText = ({ children }: { children: React.ReactNode }) => {
     const textRef = useRef<HTMLHeadingElement>(null);
     const originalContentRef = useRef<string>("");
     const isInitializedRef = useRef(false);
-    const animationRef = useRef<gsap.core.Tween | null>(null);
 
     useEffect(() => {
         const element = textRef.current;
@@ -103,18 +102,21 @@ const AnimatedText = ({ children }: { children: React.ReactNode }) => {
             });
         };
 
-        const createAnimation = () => {
-            const chars = element.querySelectorAll(".char");
+        // Split text immediately
+        element.classList.add("text-reveal-anim");
+        splitTextWithHTML(element);
 
-            if (chars.length > 0) {
-                // Kill existing animation if any
-                if (animationRef.current) {
-                    animationRef.current.kill();
-                }
+        const chars = element.querySelectorAll(".char");
 
-                gsap.set(chars, { opacity: 0.2 });
+        if (chars.length > 0) {
+            // Set initial opacity
+            gsap.set(chars, { opacity: 0.2 });
 
-                animationRef.current = gsap.to(chars, {
+            const createAnimation = () => {
+                // Force ScrollTrigger to recalculate positions
+                ScrollTrigger.refresh(true);
+
+                gsap.to(chars, {
                     scrollTrigger: {
                         trigger: element,
                         start: "top 80%",
@@ -122,59 +124,46 @@ const AnimatedText = ({ children }: { children: React.ReactNode }) => {
                         scrub: 1,
                         markers: false,
                         invalidateOnRefresh: true,
+                        onRefresh: (self) => {
+                            // Reset animation progress based on current scroll position
+                            self.update();
+                        }
                     },
                     opacity: 1,
                     stagger: 0.02,
                     ease: "none"
                 });
-            }
-        };
+            };
 
-        // Split text immediately
-        element.classList.add("text-reveal-anim");
-        splitTextWithHTML(element);
-
-        // Wait for layout to be complete before creating animation
-        const initializeAnimation = () => {
-            // Double requestAnimationFrame ensures layout is complete
-            requestAnimationFrame(() => {
-                requestAnimationFrame(() => {
+            // Wait for everything to load
+            if (document.readyState === 'complete') {
+                // Page already loaded
+                setTimeout(() => {
                     createAnimation();
-                    ScrollTrigger.refresh();
-                });
-            });
-        };
+                }, 100);
+            } else {
+                // Wait for load event
+                const handleLoad = () => {
+                    setTimeout(() => {
+                        createAnimation();
+                    }, 100);
+                };
+                window.addEventListener('load', handleLoad);
 
-        // Check if page is already loaded
-        if (document.readyState === 'complete') {
-            initializeAnimation();
-        } else {
-            // Wait for load event
-            const handleLoad = () => {
-                initializeAnimation();
-            };
-            window.addEventListener('load', handleLoad);
-
-            // Cleanup
-            return () => {
-                window.removeEventListener('load', handleLoad);
-                if (animationRef.current) {
-                    animationRef.current.kill();
-                }
-                ScrollTrigger.getAll().forEach(trigger => {
-                    if (trigger.trigger === element) {
-                        trigger.kill();
-                    }
-                });
-            };
+                return () => {
+                    window.removeEventListener('load', handleLoad);
+                    ScrollTrigger.getAll().forEach(trigger => {
+                        if (trigger.trigger === element) {
+                            trigger.kill();
+                        }
+                    });
+                };
+            }
         }
 
         isInitializedRef.current = true;
 
         return () => {
-            if (animationRef.current) {
-                animationRef.current.kill();
-            }
             ScrollTrigger.getAll().forEach(trigger => {
                 if (trigger.trigger === element) {
                     trigger.kill();
