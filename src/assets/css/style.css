@@ -1638,8 +1638,7 @@ Scroll To Top style
   width: 0%;
   border-radius: 10px;
   background: var(--theme-color4);
-  transition: width 3000ms ease;
-  will-change: width;
+  -moz-transition: all 3000ms ease;
   -webkit-transition: all 3000ms ease;
   transition: all 3000ms ease;
 }
