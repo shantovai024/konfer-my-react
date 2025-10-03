@@ -1640,6 +1640,8 @@ Scroll To Top style
   background: var(--theme-color4);
   transition: width 3000ms ease;
   will-change: width;
+  -webkit-transition: all 3000ms ease;
+  transition: all 3000ms ease;
 }
 
 .rtl .skills .skill-item .skill-bar .bar-inner .bar {
