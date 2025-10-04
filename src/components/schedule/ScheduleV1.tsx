@@ -48,11 +48,11 @@ const ScheduleV1 = () => {
                                                                     <span className="designation">{block.designation}</span>
                                                                 </div>
                                                                 <h4>
-                                                                    <Link to={`/event-single/${schedule.id}/${block.id}`}>{block.title}</Link>
+                                                                    <Link to={`/event-single/${block.id}`}>{block.title}</Link>
                                                                 </h4>
                                                                 <div className="text">{block.text}</div>
                                                                 <div className="btn-box">
-                                                                    <Link to={`/event-single/${schedule.id}/${block.id}`} className="theme-btn">{block.btnText}</Link>
+                                                                    <Link to={`/event-single/${block.id}`} className="theme-btn">{block.btnText}</Link>
                                                                 </div>
                                                             </div>
                                                         </div>

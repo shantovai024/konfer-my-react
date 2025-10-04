@@ -68,7 +68,7 @@
         "tabId": "tab-2",
         "tabData": [
             {
-                "id": 1,
+                "id": 5,
                 "eventThumb": "event-detail.jpg",
                 "blockClass": "",
                 "sessionStart": "9.00 AM",
@@ -82,7 +82,7 @@
                 "btnText": "Read More"
             },
             {
-                "id": 2,
+                "id": 6,
                 "eventThumb": "event-detail-2.jpg",
                 "blockClass": "even",
                 "sessionStart": "10.00 AM",
@@ -96,7 +96,7 @@
                 "btnText": "Read More"
             },
             {
-                "id": 3,
+                "id": 7,
                 "eventThumb": "event-detail-3.jpg",
                 "blockClass": "",
                 "sessionStart": "11.00 AM",
@@ -110,7 +110,7 @@
                 "btnText": "Read More"
             },
             {
-                "id": 4,
+                "id": 8,
                 "eventThumb": "event-detail-4.jpg",
                 "blockClass": "even",
                 "sessionStart": "12.00 AM",
@@ -131,7 +131,7 @@
         "tabId": "tab-3",
         "tabData": [
             {
-                "id": 1,
+                "id": 9,
                 "eventThumb": "event-detail.jpg",
                 "blockClass": "",
                 "sessionStart": "9.00 AM",
@@ -145,7 +145,7 @@
                 "btnText": "Read More"
             },
             {
-                "id": 2,
+                "id": 10,
                 "eventThumb": "event-detail-2.jpg",
                 "blockClass": "even",
                 "sessionStart": "10.00 AM",
@@ -159,7 +159,7 @@
                 "btnText": "Read More"
             },
             {
-                "id": 3,
+                "id": 11,
                 "eventThumb": "event-detail-3.jpg",
                 "blockClass": "",
                 "sessionStart": "11.00 AM",
@@ -173,7 +173,7 @@
                 "btnText": "Read More"
             },
             {
-                "id": 4,
+                "id": 12,
                 "eventThumb": "event-detail-4.jpg",
                 "blockClass": "even",
                 "sessionStart": "12.00 AM",
@@ -194,7 +194,7 @@
         "tabId": "tab-4",
         "tabData": [
             {
-                "id": 1,
+                "id": 13,
                 "eventThumb": "event-detail.jpg",
                 "blockClass": "",
                 "sessionStart": "9.00 AM",
@@ -208,7 +208,7 @@
                 "btnText": "Read More"
             },
             {
-                "id": 2,
+                "id": 14,
                 "eventThumb": "event-detail-2.jpg",
                 "blockClass": "even",
                 "sessionStart": "10.00 AM",
@@ -222,7 +222,7 @@
                 "btnText": "Read More"
             },
             {
-                "id": 3,
+                "id": 15,
                 "eventThumb": "event-detail-3.jpg",
                 "blockClass": "",
                 "sessionStart": "11.00 AM",
@@ -236,7 +236,7 @@
                 "btnText": "Read More"
             },
             {
-                "id": 4,
+                "id": 16,
                 "eventThumb": "event-detail-4.jpg",
                 "blockClass": "even",
                 "sessionStart": "12.00 AM",

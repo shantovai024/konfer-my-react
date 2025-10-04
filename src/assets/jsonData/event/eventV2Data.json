@@ -139,5 +139,52 @@
                 "image": "event2-1.jpg"
             }
         ]
+    },
+    {
+        "id": 2,
+        "tabId": "tab-5",
+        "activeClass": "",
+        "tabData": [
+            {
+                "id": 13,
+                "time": "10:00 am - 12:00 pm",
+                "title": "Modern Marketing Summit Sydney 2018",
+                "speaker": "Ashli Scrogey",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            },
+            {
+                "id": 14,
+                "time": "12:00 pm - 02:00 pm",
+                "title": "Digital Triumphs in Sydney 2018",
+                "speaker": "Michelle Larson",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            },
+            {
+                "id": 15,
+                "time": "02:00 pm - 04:00 pm",
+                "title": "Innovate. Elevate. Captivate Sydney 2018",
+                "speaker": "Tina Ortega",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            },
+            {
+                "id": 16,
+                "time": "04:00 pm - 06:00 pm",
+                "title": "Revolutionizing Marketing in Sydney 2018",
+                "speaker": "David Guetta",
+                "role": "Specker",
+                "city": "New York",
+                "club": "Manhattan club",
+                "image": "event2-1.jpg"
+            }
+        ]
     }
 ]

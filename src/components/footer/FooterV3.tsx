@@ -79,7 +79,7 @@ const FooterV3 = () => {
                                         <div className="newsletter-form-two">
                                             <form onSubmit={handleForm}>
                                                 <div className="form-group">
-                                                    <input type="email" name="email" className="email" placeholder="Subscribe Email ......" required />
+                                                    <input type="email" name="email" className="email" autoComplete="off" placeholder="Subscribe Email ......" required />
                                                     <button type="submit" className="button">
                                                         <i className="flaticon-mail" />
                                                     </button>

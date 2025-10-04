@@ -8,13 +8,20 @@ import MouseCursor from './MouseCursor';
 const Dependency = () => {
 
     useEffect(() => {
+        // Dynamically import Bootstrap JS
+        import('bootstrap/dist/js/bootstrap.bundle.min.js')
+            .catch((err) => {
+                console.error('Bootstrap loading error:', err);
+            });
+
+        // Aos Animation 
         AOS.init({
             easing: 'ease-out-back',
             duration: 1000,
             once: true,
             disable: window.innerWidth < 768
         });
-    }, [])
+    }, []);
 
     return (
         <>

@@ -1,3 +1,4 @@
+import AnimatedText from "../animation/AnimatedText";
 import ContactForm from "../form/ContactForm";
 
 
@@ -8,7 +9,9 @@ const ContactPageContent = () => {
                 <div className="auto-container">
                     <div className="sec-title text-center">
                         <span className="sub-title">Contact Us</span>
-                        <h2 className="scrub-each-word text-split">We're Here to Help</h2>
+                        <AnimatedText>
+                            We're Here to Help
+                        </AnimatedText>
                     </div>
                     <div className="row">
                         <ContactForm />

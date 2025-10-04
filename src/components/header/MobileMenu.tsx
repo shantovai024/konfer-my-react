@@ -5,27 +5,33 @@ import { Link } from "react-router-dom";
 interface DataType {
     openMenu: boolean;
     handleCloseMenu: () => void;
-    toggleMenu: (e: React.MouseEvent<Element, MouseEvent>) => void;
+    toggleMenuItem: (menuId: string) => void;
+    isMenuItemOpen: (menuId: string) => boolean;
 }
 
-const MobileMenu = ({ openMenu, handleCloseMenu, toggleMenu }: DataType) => {
+const MobileMenu = ({ openMenu, handleCloseMenu, toggleMenuItem, isMenuItemOpen }: DataType) => {
     return (
         <>
             <div className={`${openMenu ? "mobile-menu-visible" : ""}`}>
                 <div className="mobile-menu">
-                    <div className="menu-backdrop" ></div>
+                    <div className="menu-backdrop"></div>
                     <nav className="menu-box">
                         <div className="upper-box">
                             <div className="logo-box">
                                 <div className="nav-logo">
                                     <Link to="/">
-                                        <img src="/images/logo.svg" alt="image" />
+                                        <img src="/images/logo-2.svg" alt="image" />
                                     </Link>
                                 </div>
                             </div>
-                            <div className="close-btn" onClick={handleCloseMenu} ><span className="icon fa fa-times"></span></div>
+                            <div className="close-btn" onClick={handleCloseMenu}>
+                                <span className="icon fa fa-times"></span>
+                            </div>
                         </div>
-                        <MainMenu toggleMenu={toggleMenu} />
+                        <MainMenu
+                            toggleMenuItem={toggleMenuItem}
+                            isMenuItemOpen={isMenuItemOpen}
+                        />
                         <ul className="contact-list-one">
                             <li>
                                 <i className="icon lnr-icon-phone-handset"></i>
@@ -47,7 +53,6 @@ const MobileMenu = ({ openMenu, handleCloseMenu, toggleMenu }: DataType) => {
                             <SocialV1 />
                         </ul>
                     </nav>
-
                 </div>
             </div>
         </>

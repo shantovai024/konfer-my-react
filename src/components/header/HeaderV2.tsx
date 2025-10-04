@@ -19,7 +19,7 @@ const HeaderV2 = ({ headerStyle, parentMenu }: DataType) => {
     const isSticky = useStickyMenu();
     const { openSearch, toggle: searchToggle, close: searchClose } = useSearchBar();
     const { openSidebar, toggle: sidebarToggle, close: sidebarClose } = useSidebar();
-    const { openMenu, toggle: mobileToggle, close: handleCloseMenu, toggleMenu } = useMobileMenu();
+    const { openMenu, toggle: mobileToggle, close: handleCloseMenu, toggleMenuItem, isMenuItemOpen } = useMobileMenu();
 
     return (
         <>
@@ -75,7 +75,8 @@ const HeaderV2 = ({ headerStyle, parentMenu }: DataType) => {
                 <MobileMenu
                     openMenu={openMenu}
                     handleCloseMenu={handleCloseMenu}
-                    toggleMenu={toggleMenu}
+                    toggleMenuItem={toggleMenuItem}
+                    isMenuItemOpen={isMenuItemOpen}
                 />
 
             </header>

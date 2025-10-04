@@ -1,33 +1,43 @@
-import { useEffect, useState, useCallback } from "react";
+import { useState, useCallback } from "react";
 
 const useMobileMenu = () => {
     const [openMenu, setOpenMenu] = useState(false);
-
-    useEffect(() => {
-        const wrapper = document.querySelector(".page-wrapper");
-        if (!wrapper) return;
-
-        wrapper.classList.toggle("no-color-palate", openMenu);
-    }, [openMenu]);
+    const [openMenuItems, setOpenMenuItems] = useState<Set<string>>(new Set());
 
     const toggle = useCallback((e?: React.MouseEvent<HTMLDivElement>) => {
         e?.preventDefault();
         setOpenMenu((prev) => !prev);
     }, []);
 
-    const close = useCallback(() => setOpenMenu(false), []);
+    const close = useCallback(() => {
+        setOpenMenu(false);
+        setOpenMenuItems(new Set()); // Close all submenus when closing mobile menu
+    }, []);
 
-    const toggleMenu = useCallback(
-        (e: React.MouseEvent<Element, MouseEvent>) => {
-            e.preventDefault();
-            const listItem = (e.currentTarget as HTMLElement).closest("li");
-            if (!listItem) return;
-            listItem.classList.toggle("open");
-        },
-        []
+    const toggleMenuItem = useCallback((menuId: string) => {
+        setOpenMenuItems((prev) => {
+            const newSet = new Set(prev);
+            if (newSet.has(menuId)) {
+                newSet.delete(menuId);
+            } else {
+                newSet.add(menuId);
+            }
+            return newSet;
+        });
+    }, []);
+
+    const isMenuItemOpen = useCallback(
+        (menuId: string) => openMenuItems.has(menuId),
+        [openMenuItems]
     );
 
-    return { openMenu, toggle, close, toggleMenu };
+    return {
+        openMenu,
+        toggle,
+        close,
+        toggleMenuItem,
+        isMenuItemOpen
+    };
 };
 
 export default useMobileMenu;

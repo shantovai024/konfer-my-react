@@ -24,19 +24,19 @@ const ContactForm = () => {
                                     <div className="response" />
                                 </div>
                                 <div className="form-group col-sm-6">
-                                    <input name="firstName" className="firstname" type="text" placeholder="First Name" required />
+                                    <input name="firstName" className="firstname" type="text" autoComplete="off" placeholder="First Name" required />
                                 </div>
                                 <div className="form-group col-sm-6">
-                                    <input name="lastName" className="lastname" type="text" placeholder="Last Name" required />
+                                    <input name="lastName" className="lastname" type="text" autoComplete="off" placeholder="Last Name" required />
                                 </div>
                                 <div className="form-group col-sm-6">
-                                    <input name="email" className="email" type="email" placeholder="Enter Email" required />
+                                    <input name="email" className="email" type="email" autoComplete="off" placeholder="Enter Email" required />
                                 </div>
                                 <div className="form-group col-sm-6">
-                                    <input name="phone" className="phone" type="text" placeholder="Enter Phone" required />
+                                    <input name="phone" className="phone" type="text" autoComplete="off" placeholder="Enter Phone" required />
                                 </div>
                                 <div className="form-group col-sm-12">
-                                    <textarea name="message" className="message" placeholder="Enter Message" required />
+                                    <textarea name="message" className="message" autoComplete="off" placeholder="Enter Message" required />
                                 </div>
                                 <div className="form-group col-sm-12">
                                     <button type="submit" id="submit" className="theme-btn btn-style-one hover-dark">
